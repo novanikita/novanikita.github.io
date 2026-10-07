@@ -1,0 +1,73 @@
+---
+import '../styles/colors.css';
+import '../styles/normalize.css';
+import '../styles/settings.css';
+import '../styles/layout.css';
+import '../styles/ids.css';
+import '../styles/gallery.css';
+import '../styles/project.css';
+import Header, { type Nav } from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { localized, ui, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+  /** <title> and link preview title */
+  title: string;
+  description?: string;
+  /** Absolute URL of the link preview image */
+  image?: string;
+  /** Active menu item */
+  nav?: Nav;
+  /** Hidden pages: open by link, not indexed */
+  noindex?: boolean;
+  footer?: boolean;
+  /** Whether the page exists in both languages (for hreflang) */
+  alternates?: boolean;
+}
+
+const { lang, title, description, image, nav, noindex = false, footer = true, alternates = true } = Astro.props;
+const t = ui[lang];
+const path = Astro.url.pathname.replace(/index\.html$/, '');
+const url = (p: string) => new URL(p, Astro.site).href;
+const canonical = url(path);
+const preview = image ?? url('/images/meta.png');
+---
+
+<!doctype html>
+<html lang={t.htmlLang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description ?? t.defaultDescription} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <link rel="canonical" href={canonical} />
+    {
+      alternates && (
+        <>
+          <link rel="alternate" hreflang="ru" href={url(localized(path, 'ru'))} />
+          <link rel="alternate" hreflang="en" href={url(localized(path, 'en'))} />
+          <link rel="alternate" hreflang="x-default" href={url(localized(path, 'ru'))} />
+        </>
+      )
+    }
+    <link rel="icon" href="/images/icon.png" type="image/png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content={t.ogLocale} />
+    <meta property="og:site_name" content={t.siteName} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description ?? t.defaultDescription} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={preview} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <slot name="head" />
+  </head>
+  <body class="ids">
+    <Header lang={lang} nav={nav} />
+    <main>
+      <slot />
+    </main>
+    {footer && <Footer lang={lang} />}
+  </body>
+</html>

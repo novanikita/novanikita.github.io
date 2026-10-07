@@ -1,0 +1,33 @@
+---
+import Base from '../layouts/Base.astro';
+import { ui, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+---
+
+<Base lang={lang} title={ui[lang].siteTitle} footer={false}>
+  <h1 class="visually-hidden">{ui[lang].siteTitle}</h1>
+  <canvas id="background-canvas" aria-hidden="true"></canvas>
+  <video
+    id="background-video"
+    autoplay
+    muted
+    loop
+    playsinline
+    webkit-playsinline
+    disablepictureinpicture
+    disableRemotePlayback
+    tabindex="-1"
+    aria-hidden="true"
+  >
+    <source src="/video/website-video.mp4" type="video/mp4" />
+  </video>
+</Base>
+
+<script>
+  import '../scripts/home-video';
+</script>

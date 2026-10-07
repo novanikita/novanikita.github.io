@@ -1,0 +1,78 @@
+---
+import type { ImageMetadata } from 'astro';
+import { responsive } from '../lib/images';
+import { ui, type Lang } from '../lib/i18n';
+
+type Figure =
+  | { image: ImageMetadata; size?: 'M' | 'XL'; alt?: string }
+  | { video: string; size?: 'M' | 'XL' };
+
+interface Props {
+  figures: Figure[];
+  /** Page title, used for alt texts: «<title>, изображение N» */
+  title: string;
+  lang?: Lang;
+  /** Number of images in the galleries above, so alt numbering continues */
+  offset?: number;
+  /** Width of the column the gallery sits in: next to project text, or in a note */
+  context?: 'project' | 'note';
+  class?: string;
+}
+
+const { figures, title, lang = 'ru', offset = 0, context = 'project' } = Astro.props;
+// «Откуда столько дизайнеров?» → «Откуда столько дизайнеров, изображение 3»
+const altTitle = title.replace(/[?!.…]+$/, '');
+
+// Rendered width of a figure: a third of the gallery, or the whole gallery for XL
+const SIZES = {
+  project: { M: '(max-width: 768px) 33vw, 22vw', XL: '(max-width: 768px) 100vw, 65vw' },
+  note: { M: '(max-width: 768px) 33vw, 20vw', XL: '(max-width: 768px) 100vw, 60vw' },
+}[context];
+
+let n = offset;
+const items = await Promise.all(
+  figures.map(async (figure) => {
+    const size = figure.size ?? 'M';
+    if ('video' in figure) return { ...figure, size, kind: 'video' as const };
+    n += 1;
+    return { ...figure, size, kind: 'image' as const, n, img: await responsive(figure.image) };
+  }),
+);
+---
+
+<ids-gallery class={Astro.props.class}>
+  {
+    items.map((item) =>
+      item.kind === 'video' ? (
+        <figure class={item.size === 'XL' ? 'XL' : undefined}>
+          <video src={item.video} autoplay muted loop playsinline />
+        </figure>
+      ) : (
+        <figure class={item.size === 'XL' ? 'XL' : undefined}>
+          <a
+            href={item.img.full}
+            data-pswp-width={item.img.width}
+            data-pswp-height={item.img.height}
+            data-pswp-fallback={item.img.fallback}
+          >
+            <picture>
+              <source type="image/avif" srcset={item.img.avifSrcset} sizes={SIZES[item.size]} />
+              <img
+                src={item.img.fallback}
+                width={item.img.width}
+                height={item.img.height}
+                alt={item.alt ?? `${altTitle}, ${ui[lang].image} ${item.n}`}
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
+          </a>
+        </figure>
+      ),
+    )
+  }
+</ids-gallery>
+
+<script>
+  import '../scripts/gallery';
+</script>

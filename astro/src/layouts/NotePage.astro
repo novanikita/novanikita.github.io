@@ -1,0 +1,33 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Base from './Base.astro';
+import { contentOf, isHidden } from '../lib/content';
+import { describe } from '../lib/meta';
+import { ui, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+  entry: CollectionEntry<'notes'>;
+}
+
+const { lang, entry } = Astro.props;
+const texts = await contentOf('notes', entry, lang);
+const description = texts.description ?? describe(lang, texts.title, texts.body);
+const { Content } = texts;
+---
+
+<Base
+  lang={lang}
+  title={texts.title + ui[lang].suffix}
+  description={description}
+  nav="articles"
+  noindex={isHidden('notes', entry) || !texts.translated}
+>
+  <div class="ids__wrapper S note">
+    <div class="ids__space XL"></div>
+    <h1>{texts.title}</h1>
+    {texts.meta.map((line) => <i>{line} </i>)}
+    <div class="ids__space M"></div>
+    <Content />
+  </div>
+</Base>

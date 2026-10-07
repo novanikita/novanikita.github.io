@@ -1,0 +1,56 @@
+---
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import { TAGS } from '../content.config';
+import { listOf, textsOf } from '../lib/content';
+import { localized, tagLabel, ui, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const projects = await listOf('projects');
+const cards = await Promise.all(
+  projects.map(async (project) => ({ project, texts: await textsOf('projects', project, lang) })),
+);
+const counts = Object.fromEntries(TAGS.map((tag) => [tag, projects.filter((p) => p.data.tag === tag).length]));
+const tags = TAGS.filter((tag) => counts[tag] > 0);
+---
+
+<Base lang={lang} title={ui[lang].portfolioTitle + ui[lang].suffix} nav="portfolio">
+  <div class="ids__wrapper L">
+    <div class="ids__space L"></div>
+    <div class="portfolio-description">
+      <h1 class="S">
+        {ui[lang].portfolioIntro}{
+          tags.map((tag, i) => (
+            <>
+              <code data-tag-name={tag} role="button" tabindex="0" aria-pressed="false">{tagLabel(lang, tag, counts[tag])}</code>
+              {i < tags.length - 1 ? ', ' : ''}
+            </>
+          ))
+        }
+      </h1>
+    </div>
+    <div class="ids__space S"></div>
+    <div class="projects-grid">
+      {
+        cards.map(({ project, texts }, i) => (
+          <Card
+            title={texts.cardTitle}
+            href={project.data.soon ? undefined : localized(`/${project.id}.html`, lang)}
+            cover={project.data.card.cover}
+            size={project.data.card.size}
+            tag={project.data.tag}
+            eager={i < 4}
+          />
+        ))
+      }
+    </div>
+  </div>
+</Base>
+
+<script>
+  import '../scripts/portfolio-filter';
+</script>

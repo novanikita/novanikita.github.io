@@ -1,0 +1,32 @@
+---
+import Base from '../layouts/Base.astro';
+import { listOf, textsOf } from '../lib/content';
+import { localized, ui, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const notes = await Promise.all(
+  (await listOf('notes')).map(async (note) => ({ note, texts: await textsOf('notes', note, lang) })),
+);
+---
+
+<Base lang={lang} title={ui[lang].notesTitle} nav="articles">
+  <div class="ids__wrapper S">
+    <div class="ids__space XL"></div>
+    <h1>{ui[lang].notesTitle}</h1>
+    <div class="title-list">
+      {
+        notes.map(({ note, texts }) => (
+          <div class="title-list__item">
+            <h2 class="title-list__title">
+              <a href={localized(`/${note.id}.html`, lang)}>{texts.listTitle}</a>
+            </h2>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</Base>

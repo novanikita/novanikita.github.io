@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import { listOf, textsOf } from '../lib/content';
+import { HIDDEN_SECTIONS } from '../lib/site';
+import { localized, ui, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const videos = await Promise.all(
+  (await listOf('videos')).map(async (video) => ({ video, texts: await textsOf('videos', video, lang) })),
+);
+---
+
+<Base lang={lang} title={ui[lang].videoTitle + ui[lang].suffix} noindex={HIDDEN_SECTIONS.has('videos')}>
+  <h1 class="visually-hidden">{ui[lang].videoTitle}</h1>
+  <div class="ids__wrapper L">
+    <div class="projects-grid">
+      {
+        videos.map(({ video, texts }, i) => (
+          <Card
+            title={texts.cardTitle}
+            href={localized(`/${video.id}.html`, lang)}
+            cover={video.data.card.cover}
+            size={video.data.card.size}
+            eager={i < 4}
+            variant="video"
+          />
+        ))
+      }
+    </div>
+  </div>
+</Base>

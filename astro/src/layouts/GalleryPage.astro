@@ -1,0 +1,59 @@
+---
+// A page with text on the left and galleries on the right: projects, travels, design sundays
+import type { CollectionEntry } from 'astro:content';
+import Base from './Base.astro';
+import Gallery from '../components/Gallery.astro';
+import { contentOf, isHidden } from '../lib/content';
+import { describe } from '../lib/meta';
+import { previewImage } from '../lib/images';
+import { ui, type Lang } from '../lib/i18n';
+
+type Collection = 'projects' | 'travels' | 'meetups';
+
+interface Props {
+  lang: Lang;
+  collection: Collection;
+  entry: CollectionEntry<Collection>;
+}
+
+const { lang, collection, entry } = Astro.props;
+const { galleries, textSize, card } = entry.data;
+const texts = await contentOf(collection, entry, lang);
+const description = texts.description ?? describe(lang, texts.title, texts.body);
+const image = card.cover ? await previewImage(card.cover, Astro.site!) : undefined;
+// alt numbering continues across galleries
+const offsets = galleries.map((_, i) => galleries.slice(0, i).flat().filter((f) => 'image' in f).length);
+const { Content } = texts;
+---
+
+<Base
+  lang={lang}
+  title={texts.title + ui[lang].suffix}
+  description={description}
+  image={image}
+  nav={collection === 'projects' ? 'portfolio' : undefined}
+  noindex={isHidden(collection, entry) || !texts.translated}
+>
+  <div class="ids__wrapper L">
+    <div class="project-page-wrapper">
+      <div class="project-about">
+        <div class="sticky-project-info">
+          <h1>{texts.title}</h1>
+          <div class:list={['project-text', textSize === 'caption' && 'caption']}>
+            <Content />
+          </div>
+        </div>
+      </div>
+      <div class="project-gallery">
+        {
+          galleries.map((figures, i) => (
+            <>
+              {i > 0 && <div class="ids__space XL" />}
+              <Gallery figures={figures} title={texts.title} lang={lang} offset={offsets[i]} />
+            </>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</Base>

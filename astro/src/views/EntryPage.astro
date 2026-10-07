@@ -1,0 +1,27 @@
+---
+// The page of one entry of any collection, in a language
+import type { CollectionEntry } from 'astro:content';
+import GalleryPage from '../layouts/GalleryPage.astro';
+import NotePage from '../layouts/NotePage.astro';
+import VideoPage from '../layouts/VideoPage.astro';
+import type { PageCollection, PageEntry } from '../lib/content';
+import type { Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+  collection: PageCollection;
+  entry: PageEntry;
+}
+
+const { lang, collection, entry } = Astro.props;
+---
+
+{
+  collection === 'notes' ? (
+    <NotePage lang={lang} entry={entry as CollectionEntry<'notes'>} />
+  ) : collection === 'videos' ? (
+    <VideoPage lang={lang} entry={entry as CollectionEntry<'videos'>} />
+  ) : (
+    <GalleryPage lang={lang} collection={collection} entry={entry as CollectionEntry<'projects' | 'travels' | 'meetups'>} />
+  )
+}

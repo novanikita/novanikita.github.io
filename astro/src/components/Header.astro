@@ -1,0 +1,59 @@
+---
+import LanguageSwitch from './LanguageSwitch.astro';
+import { localized, ui, type Lang } from '../lib/i18n';
+
+export type Nav = 'portfolio' | 'articles' | 'about';
+
+interface Props {
+  lang: Lang;
+  nav?: Nav;
+}
+
+const { lang, nav } = Astro.props;
+const t = ui[lang];
+// The menu. Hidden sections (src/lib/site.ts) are not listed here.
+const items = [
+  { key: 'portfolio', href: localized('/portfolio.html', lang), label: t.nav.portfolio },
+  { key: 'articles', href: localized('/articles.html', lang), label: t.nav.articles },
+  { key: 'about', href: localized('/about.html', lang), label: t.nav.about },
+  { key: 'contact', href: 'https://t.me/nikita_nova', label: t.nav.contact },
+];
+---
+
+<header class="site-header has-menu">
+  <div class="main-page-header">
+    <p class="site-title"><a href={localized('/', lang)}>{t.siteTitle}</a> — {t.tagline}</p>
+  </div>
+  <button
+    class="menu-toggle"
+    type="button"
+    aria-expanded="false"
+    aria-controls="site-menu"
+    aria-label={t.menu.open}
+    data-label-open={t.menu.open}
+    data-label-close={t.menu.close}
+  >
+    <span class="menu-toggle__icon" aria-hidden="true"></span>
+  </button>
+  <nav class="main-page-nav" id="site-menu" aria-label={t.menu.label}>
+    {
+      items.map((item) => (
+        <div>
+          <a
+            href={item.href}
+            class={item.key === nav ? 'is-nav-active' : undefined}
+            aria-current={item.key === nav ? 'page' : undefined}
+          >
+            {item.label}
+          </a>
+        </div>
+      ))
+    }
+    <LanguageSwitch />
+  </nav>
+  <noscript><style>.site-header.has-menu .main-page-nav { display: flex; } .site-header .menu-toggle { display: none; }</style></noscript>
+</header>
+
+<script>
+  import '../scripts/menu';
+</script>

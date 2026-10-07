@@ -1,0 +1,40 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Base from './Base.astro';
+import { isHidden, textsOf } from '../lib/content';
+import { previewImage } from '../lib/images';
+import { ui, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+  entry: CollectionEntry<'videos'>;
+}
+
+const { lang, entry } = Astro.props;
+const texts = await textsOf('videos', entry, lang);
+const image = entry.data.card.cover ? await previewImage(entry.data.card.cover, Astro.site!) : undefined;
+---
+
+<Base
+  lang={lang}
+  title={texts.title + ui[lang].suffix}
+  description={texts.description}
+  image={image}
+  noindex={isHidden('videos', entry) || !texts.translated}
+>
+  <h1 class="visually-hidden">{texts.title}</h1>
+  <div class="ids__wrapper L">
+    <div class="project-page-wrapper">
+      <div class="project-gallery">
+        <iframe
+          src={entry.data.embed}
+          title={texts.title}
+          width="1280"
+          height="720"
+          style="border: 0"
+          allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</Base>

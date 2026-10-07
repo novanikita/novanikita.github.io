@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import { listOf, textsOf } from '../lib/content';
+import { HIDDEN_SECTIONS } from '../lib/site';
+import { localized, ui, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const travels = await Promise.all(
+  (await listOf('travels')).map(async (travel) => ({ travel, texts: await textsOf('travels', travel, lang) })),
+);
+// Newest year first
+const years = [...new Set(travels.map(({ travel }) => travel.data.year))].sort((a, b) => b - a);
+---
+
+<Base lang={lang} title={ui[lang].travelsTitle + ui[lang].suffix} noindex={HIDDEN_SECTIONS.has('travels')}>
+  <div class="ids__wrapper L">
+    {
+      years.map((year, i) => (
+        <>
+          {i > 0 && <div class="ids__space XL" />}
+          <h1>{year}</h1>
+          <div class="projects-grid">
+            {travels
+              .filter(({ travel }) => travel.data.year === year)
+              .map(({ travel, texts }) => (
+                <Card
+                  title={texts.cardTitle}
+                  href={travel.data.soon ? undefined : localized(`/${travel.id}.html`, lang)}
+                  cover={travel.data.card.cover}
+                  size={travel.data.card.size}
+                />
+              ))}
+          </div>
+        </>
+      ))
+    }
+  </div>
+</Base>

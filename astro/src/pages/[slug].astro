@@ -1,0 +1,13 @@
+---
+// Every project, note, video, travel and meetup page: /<folder>.html
+import EntryPage from '../views/EntryPage.astro';
+import { entryPaths } from '../lib/content';
+
+export async function getStaticPaths() {
+  return entryPaths();
+}
+
+const { collection, entry } = Astro.props;
+---
+
+<EntryPage lang="ru" collection={collection} entry={entry} />

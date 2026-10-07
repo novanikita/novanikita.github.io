@@ -1,0 +1,42 @@
+---
+import LanguageSwitch from './LanguageSwitch.astro';
+import { ui, type Lang } from '../lib/i18n';
+import cat1 from '../assets/footer-cat/cat-1.webp';
+import cat2 from '../assets/footer-cat/cat-2.webp';
+import cat3 from '../assets/footer-cat/cat-3.webp';
+import cat4 from '../assets/footer-cat/cat-4.webp';
+
+interface Props {
+  lang: Lang;
+}
+
+const t = ui[Astro.props.lang].footer;
+// Walk cycle frames for the five horizontal zones of the image (ping-pong: 2-3-4-3-2)
+const frames = [cat2, cat3, cat4, cat3, cat2].map((frame) => frame.src);
+---
+
+<footer class="portfolio-footer">
+  <div class="portfolio-footer__copy">{t.copy}</div>
+  <div class="portfolio-footer__cat">
+    <img
+      src={cat1.src}
+      width={cat1.width}
+      height={cat1.height}
+      alt=""
+      aria-hidden="true"
+      data-frames={JSON.stringify(frames)}
+    />
+  </div>
+  <div class="portfolio-footer__right">
+    <nav class="main-page-nav portfolio-footer__menu" aria-label={t.label}>
+      <a href="https://www.youtube.com/@Nikitanova">{t.youtube}</a>
+      <a href="https://t.me/+Z1nNM8tF_6E1YTli">{t.telegram}</a>
+      <a href="https://t.me/nikita_nova">{t.contact}</a>
+    </nav>
+    <LanguageSwitch class="portfolio-footer__lang" />
+  </div>
+</footer>
+
+<script>
+  import '../scripts/footer-cat';
+</script>

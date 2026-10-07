@@ -1,0 +1,21 @@
+---
+// GitHub Pages shows this page for any missing address, in both languages
+import Base from '../layouts/Base.astro';
+import { ui } from '../lib/i18n';
+---
+
+<Base lang="ru" title={ui.ru.notFoundTitle + ui.ru.suffix} noindex alternates={false}>
+  <div class="ids__wrapper S">
+    <div class="ids__space XL"></div>
+    <h1>Такой страницы нет</h1>
+    <p>
+      Возможно, проект переехал или ссылка устарела. Все работы — в&nbsp;<a href="/portfolio.html">проектах</a>,
+      а&nbsp;ещё можно вернуться <a href="/">на&nbsp;главную</a>.
+    </p>
+    <div class="ids__space L"></div>
+    <p lang="en">
+      This page doesn’t exist. See all <a href="/en/portfolio.html">projects</a> or go to the
+      <a href="/en/">home page</a>.
+    </p>
+  </div>
+</Base>

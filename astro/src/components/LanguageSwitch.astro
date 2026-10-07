@@ -1,0 +1,15 @@
+---
+import { localized, langOf, ui } from '../lib/i18n';
+
+interface Props {
+  class?: string;
+}
+
+const path = Astro.url.pathname.replace(/index\.html$/, '');
+const lang = langOf(path);
+---
+
+<div class:list={['language-switcher', Astro.props.class]} aria-label={ui[lang].langSwitch}>
+  <a href={localized(path, 'ru')} data-lang="ru" class:list={[lang === 'ru' && 'is-active']}>РУ</a>
+  <a href={localized(path, 'en')} data-lang="en" class:list={[lang === 'en' && 'is-active']}>EN</a>
+</div>

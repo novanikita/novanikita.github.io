@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import { listOf, textsOf } from '../lib/content';
+import { localized, ui, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const meetups = await Promise.all(
+  (await listOf('meetups')).map(async (meetup) => ({ meetup, texts: await textsOf('meetups', meetup, lang) })),
+);
+---
+
+<Base lang={lang} title={ui[lang].meetupsTitle + ui[lang].suffix}>
+  <h1 class="visually-hidden">{ui[lang].meetupsTitle}</h1>
+  <div class="ids__wrapper L">
+    <div class="projects-grid">
+      <div class="projects-grid-item L">
+        <h2>{ui[lang].meetupsIntro}</h2>
+      </div>
+      {
+        meetups.map(({ meetup, texts }) => (
+          <Card
+            title={texts.cardTitle}
+            href={localized(`/${meetup.id}.html`, lang)}
+            cover={meetup.data.card.cover}
+            size={meetup.data.card.size}
+          />
+        ))
+      }
+    </div>
+  </div>
+</Base>
