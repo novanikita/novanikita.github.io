@@ -1,68 +1,83 @@
 (function () {
   const isEnglishPage = window.location.pathname.indexOf("/en/") !== -1;
+  const root = isEnglishPage ? "../" : "";
 
-  function loadPartial(path, errorMessage) {
+  function loadPartial(path) {
     return fetch(path).then(function (response) {
       if (!response.ok) {
-        throw new Error(errorMessage);
+        throw new Error("Failed to load " + path);
       }
       return response.text();
     });
   }
 
-  const mount = document.getElementById("site-header");
-  const headerPartialPath = isEnglishPage
-    ? "../partials/header-en.partial"
-    : "partials/header.partial";
-  const footerPartialPath = isEnglishPage
-    ? "../partials/footer-en.partial"
-    : "partials/footer.partial";
-
-  function loadScript(src, datasetKey) {
+  function loadScript(src, initName) {
     return new Promise(function (resolve) {
-      const globalInitName = datasetKey === "footer-cat"
-        ? "initFooterCatAnimation"
-        : datasetKey === "nav-active"
-          ? "initActiveNav"
-          : null;
-
-      if (globalInitName && typeof window[globalInitName] === "function") {
+      if (typeof window[initName] === "function") {
         resolve();
-        return;
-      }
-
-      const existingScript = document.querySelector('script[data-include-script="' + datasetKey + '"]');
-      if (existingScript) {
-        existingScript.addEventListener("load", resolve, { once: true });
-        existingScript.addEventListener("error", resolve, { once: true });
         return;
       }
 
       const script = document.createElement("script");
       script.src = src;
-      script.dataset.includeScript = datasetKey;
       script.onload = resolve;
       script.onerror = resolve;
       document.body.appendChild(script);
     });
   }
 
+  function initLanguageSwitcher() {
+    if (typeof window.initLanguageSwitcher === "function") {
+      window.initLanguageSwitcher();
+    }
+  }
+
+  // Burger menu on phones (the button is hidden by CSS on wider screens)
+  function initMenu() {
+    const header = document.querySelector("#site-header .site-header");
+    const toggle = header && header.querySelector(".menu-toggle");
+    if (!toggle || toggle.dataset.ready === "true") return;
+    toggle.dataset.ready = "true";
+
+    const labels = isEnglishPage ? ["Open menu", "Close menu"] : ["Открыть меню", "Закрыть меню"];
+
+    function setOpen(open) {
+      header.classList.toggle("is-menu-open", open);
+      toggle.setAttribute("aria-expanded", String(open));
+      toggle.setAttribute("aria-label", labels[open ? 1 : 0]);
+    }
+
+    toggle.addEventListener("click", function () {
+      setOpen(!header.classList.contains("is-menu-open"));
+    });
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && header.classList.contains("is-menu-open")) {
+        setOpen(false);
+        toggle.focus();
+      }
+    });
+    window.matchMedia("(min-width: 769px)").addEventListener("change", function (event) {
+      if (event.matches) setOpen(false);
+    });
+  }
+
+  // tools/build_site.py writes the header and footer into the pages; they are only
+  // fetched here for pages it hasn't processed yet. Partials and helper scripts load in parallel.
+  const mount = document.getElementById("site-header");
   if (mount) {
-    loadScript(
-      isEnglishPage ? "../js/nav-active.js" : "js/nav-active.js",
-      "nav-active"
-    )
-      .then(function () {
-        return loadPartial(headerPartialPath, "Failed to load header partial");
-      })
-      .then(function (html) {
-        mount.innerHTML = html;
+    const prefilled = Boolean(mount.querySelector("header"));
+    if (prefilled) initMenu();
+    Promise.all([
+      prefilled ? null : loadPartial(root + (isEnglishPage ? "partials/header-en.partial" : "partials/header.partial")),
+      loadScript(root + "js/nav-active.js", "initActiveNav"),
+    ])
+      .then(function (results) {
+        if (!prefilled) mount.innerHTML = results[0];
+        initMenu();
         if (typeof window.initActiveNav === "function") {
           window.initActiveNav();
         }
-        if (typeof window.initLanguageSwitcher === "function") {
-          window.initLanguageSwitcher();
-        }
+        initLanguageSwitcher();
       })
       .catch(function (error) {
         console.error(error);
@@ -70,26 +85,22 @@
   }
 
   const footer = document.getElementById("site-footer");
-  if (!footer) return;
-
-  loadScript(
-    isEnglishPage ? "../js/footer-cat.js" : "js/footer-cat.js",
-    "footer-cat"
-  )
-    .then(function () {
-      return loadPartial(footerPartialPath, "Failed to load footer partial");
-    })
-    .then(function (html) {
-      footer.outerHTML = html;
-      if (typeof window.initFooterCatAnimation === "function") {
-        window.initFooterCatAnimation();
-      }
-      document.dispatchEvent(new CustomEvent("siteFooterLoaded"));
-      if (typeof window.initLanguageSwitcher === "function") {
-        window.initLanguageSwitcher();
-      }
-    })
-    .catch(function (error) {
-      console.error(error);
-    });
+  if (footer) {
+    const prefilled = footer.classList.contains("portfolio-footer");
+    Promise.all([
+      prefilled ? null : loadPartial(root + (isEnglishPage ? "partials/footer-en.partial" : "partials/footer.partial")),
+      loadScript(root + "js/footer-cat.js", "initFooterCatAnimation"),
+    ])
+      .then(function (results) {
+        if (!prefilled) footer.outerHTML = results[0];
+        if (typeof window.initFooterCatAnimation === "function") {
+          window.initFooterCatAnimation();
+        }
+        document.dispatchEvent(new CustomEvent("siteFooterLoaded"));
+        initLanguageSwitcher();
+      })
+      .catch(function (error) {
+        console.error(error);
+      });
+  }
 })();

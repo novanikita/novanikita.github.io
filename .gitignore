@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Python deps for tools/build_en_site.py (install with: python3 -m pip install --target .vendor -r tools/requirements.txt)
+.vendor/
+__pycache__/
+*.pyc
+
+# Design sources — keep them out of the published site
+*.psd
+
+# Local backups of full-size originals (images, video) replaced by web versions
+.originals/

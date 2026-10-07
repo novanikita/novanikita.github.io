@@ -1,4 +1,6 @@
 (function () {
+  // Cover images of grid cards are set as backgrounds only when the card gets close to the viewport.
+  // (<img> tags already carry loading="lazy" in the markup.)
   function lazyBackgrounds() {
     const items = document.querySelectorAll('[data-bg]');
     if (!items.length) return;
@@ -31,21 +33,9 @@
     });
   }
 
-  function improveImages() {
-    const images = document.querySelectorAll('img');
-    images.forEach(function (img) {
-      if (!img.hasAttribute('loading')) img.setAttribute('loading', 'lazy');
-      if (!img.hasAttribute('decoding')) img.setAttribute('decoding', 'async');
-    });
-  }
-
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', function () {
-      improveImages();
-      lazyBackgrounds();
-    });
+    document.addEventListener('DOMContentLoaded', lazyBackgrounds);
   } else {
-    improveImages();
     lazyBackgrounds();
   }
 })();

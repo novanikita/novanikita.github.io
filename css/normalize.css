@@ -187,4 +187,5 @@ summary {
 img {
   display: block;
   width: 100%;
+  height: auto; /* width/height attributes only reserve the aspect ratio */
 }

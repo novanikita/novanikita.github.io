@@ -8,21 +8,24 @@
   }
 
   function applySwitcherLinks() {
-    const switcher = document.querySelector(".language-switcher");
-    if (!switcher) return;
-
-    const ru = switcher.querySelector('[data-lang="ru"]');
-    const en = switcher.querySelector('[data-lang="en"]');
-    if (!ru || !en) return;
+    // Pages like 404 set their links in the markup
+    if (document.body.hasAttribute("data-lang-static")) return;
 
     const filename = getPageFilename(window.location.pathname);
     const isEnglishPage = window.location.pathname.indexOf("/en/") !== -1;
 
-    ru.setAttribute("href", isEnglishPage ? "../" + filename : filename);
-    en.setAttribute("href", isEnglishPage ? filename : "en/" + filename);
+    // Both the header and the footer have a switcher.
+    document.querySelectorAll(".language-switcher").forEach(function (switcher) {
+      const ru = switcher.querySelector('[data-lang="ru"]');
+      const en = switcher.querySelector('[data-lang="en"]');
+      if (!ru || !en) return;
 
-    ru.classList.toggle("is-active", !isEnglishPage);
-    en.classList.toggle("is-active", isEnglishPage);
+      ru.setAttribute("href", isEnglishPage ? "../" + filename : filename);
+      en.setAttribute("href", isEnglishPage ? filename : "en/" + filename);
+
+      ru.classList.toggle("is-active", !isEnglishPage);
+      en.classList.toggle("is-active", isEnglishPage);
+    });
   }
 
   window.initLanguageSwitcher = applySwitcherLinks;

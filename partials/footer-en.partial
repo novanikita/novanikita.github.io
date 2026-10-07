@@ -1,7 +1,7 @@
 <footer class="portfolio-footer">
   <div class="portfolio-footer__copy">Nikita Nova 2002 → 2026</div>
   <div class="portfolio-footer__cat">
-    <img src="../cat-1.png" alt="" aria-hidden="true" />
+    <img src="../images/footer-cat/cat-1.webp" width="768" height="512" alt="" aria-hidden="true" />
   </div>
   <div class="portfolio-footer__right">
     <nav class="main-page-nav portfolio-footer__menu" aria-label="Footer navigation">

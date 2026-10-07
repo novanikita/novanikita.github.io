@@ -4,33 +4,55 @@
 <head>
 <meta charset="utf-8"/>
 <title>Design Sunday - Nikita Nova</title>
-<link href="../images/icon.png" rel="icon" type="image/x-icon"/>
+<link href="../images/icon.png" rel="icon" type="image/png"/>
+<meta content="Design Sunday. Nikita Nova, designer." data-auto="" name="description"/>
+<meta content="website" property="og:type"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="Nikita Nova" property="og:site_name"/>
+<meta content="Design Sunday - Nikita Nova" property="og:title"/>
+<meta content="Design Sunday. Nikita Nova, designer." property="og:description"/>
+<meta content="https://nikitanova.com/en/design-sunday.html" property="og:url"/>
+<meta content="https://nikitanova.com/images/meta.png" property="og:image"/>
+<meta content="Design Sunday - Nikita Nova" property="og:image:alt"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Design Sunday - Nikita Nova" name="twitter:title"/>
+<meta content="Design Sunday. Nikita Nova, designer." name="twitter:description"/>
+<meta content="https://nikitanova.com/images/meta.png" name="twitter:image"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<link href="../css/colors.css" rel="stylesheet">
+<link href="https://nikitanova.com/en/design-sunday.html" rel="canonical">
+<link href="https://nikitanova.com/design-sunday.html" hreflang="ru" rel="alternate"/>
+<link href="https://nikitanova.com/en/design-sunday.html" hreflang="en" rel="alternate"/>
+<link href="https://nikitanova.com/design-sunday.html" hreflang="x-default" rel="alternate"/>
+<link href="../css/colors.css" rel="stylesheet"/>
 <link href="../css/normalize.css" rel="stylesheet"/>
 <link href="../css/settings.css" rel="stylesheet"/>
 <link href="../css/layout.css" rel="stylesheet"/>
 <link href="../css/ids.css" rel="stylesheet"/>
 <link href="../css/gallery.css" rel="stylesheet"/>
 <link href="../css/project.css" rel="stylesheet"/>
-    <meta name="description" content="Меня правда зовут Никита. Я дизайнер с опытом менеджера, редактора, програмиста, сценариста и арт‑директора" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="ru_RU" />
-    <meta property="og:site_name" content="Никитá Новá" />
-    <meta property="og:title" content="Никитá Новá" />
-    <meta property="og:description" content="Меня правда зовут Никита. Я дизайнер с опытом менеджера, редактора, програмиста, сценариста и арт‑директора" />
-    <meta property="og:url" content="https://nikitanova.ru/en/design-sunday.html" />
-    <meta property="og:image" content="https://nikitanova.ru/images/meta.png" />
-    <meta property="og:image:alt" content="Никитá Новá" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Никитá Новá" />
-    <meta name="twitter:description" content="Меня правда зовут Никита. Я дизайнер с опытом менеджера, редактора, програмиста, сценариста и арт‑директора" />
-    <meta name="twitter:image" content="https://nikitanova.ru/images/meta.png" />
-  </head>
+</head>
 <body class="ids">
-<div id="site-header"></div>
-
+<div id="site-header"><header class="site-header has-menu">
+<div class="main-page-header">
+<p class="site-title"><a href="index.html">Nikita Nova</a> — designer.</p>
+</div>
+<button aria-controls="site-menu" aria-expanded="false" aria-label="Open menu" class="menu-toggle" type="button">
+<span aria-hidden="true" class="menu-toggle__icon"></span>
+</button>
+<nav aria-label="Menu" class="main-page-nav" id="site-menu">
+<div><a href="portfolio.html">Portfolio</a></div>
+<div><a href="articles.html">Notes</a></div>
+<div><a href="about.html">About</a></div>
+<div><a href="https://t.me/nikita_nova">Contact</a></div>
+<div aria-label="Language switch" class="language-switcher">
+<a data-lang="ru" href="../design-sunday.html">РУ</a>
+<a class="is-active" data-lang="en" href="design-sunday.html">EN</a>
+</div>
+</nav>
+<noscript><style>.site-header.has-menu .main-page-nav { display: flex; } .site-header .menu-toggle { display: none; }</style></noscript>
+</header></div>
 <main>
+<h1 class="visually-hidden">Design Sunday</h1>
 <div class="ids__wrapper L">
 <div class="projects-grid">
 <div class="projects-grid-item L">
@@ -38,21 +60,21 @@
 </div>
 <div class="projects-grid-item L">
 <a class="project-promo-link" href="3-design-sunday.html">
-<div class="project-promo" data-bg="../images/d-s/cover/3-meet.jpg">
+<div class="project-promo" data-bg="../images/d-s/cover/3-meet.avif">
 <h2>No. 3 St. Petersburg 07/20/2025</h2>
 </div>
 </a>
 </div>
 <div class="projects-grid-item L">
 <a class="project-promo-link" href="2-design-sunday.html">
-<div class="project-promo" data-bg="../images/d-s/cover/2-meet.jpg">
+<div class="project-promo" data-bg="../images/d-s/cover/2-meet.avif">
 <h2>No. 2 Moscow 06/22/2025</h2>
 </div>
 </a>
 </div>
 <div class="projects-grid-item L">
 <a class="project-promo-link" href="1-design-sunday.html">
-<div class="project-promo" data-bg="../images/d-s/cover/1-meet.jpg">
+<div class="project-promo" data-bg="../images/d-s/cover/1-meet.avif">
 <h2>No. 1 Moscow 06/15/2025</h2>
 </div>
 </a>
@@ -81,22 +103,23 @@
         <div class="ids__space XL"></div>
       </div> -->
 </main>
-<footer id="site-footer"></footer>
-<script>
-      let observer = new IntersectionObserver((elements)=>{
-        elements.forEach((el) => {
-          if(el.intersectionRatio > .3) {
-            el.target.classList.remove("sleep");
-          } else {
-            el.target.classList.add("sleep");
-          }
-        })
-      }, {threshold: [0, .5]});
-
-      document.querySelectorAll('.awake').forEach(el => {
-        observer.observe(el);
-      })
-    </script>
+<footer class="portfolio-footer" id="site-footer">
+<div class="portfolio-footer__copy">Nikita Nova 2002 → 2026</div>
+<div class="portfolio-footer__cat">
+<img alt="" aria-hidden="true" height="512" src="../images/footer-cat/cat-1.webp" width="768"/>
+</div>
+<div class="portfolio-footer__right">
+<nav aria-label="Footer navigation" class="main-page-nav portfolio-footer__menu">
+<a href="https://www.youtube.com/@Nikitanova">YouTube</a>
+<a href="https://t.me/+Z1nNM8tF_6E1YTli">Telegram channel</a>
+<a href="https://t.me/nikita_nova">Contact</a>
+</nav>
+<div aria-label="Language switch" class="language-switcher portfolio-footer__lang">
+<a data-lang="ru" href="../design-sunday.html">РУ</a>
+<a class="is-active" data-lang="en" href="design-sunday.html">EN</a>
+</div>
+</div>
+</footer>
 <script src="../js/include-header.js"></script>
 <script src="../js/performance.js"></script>
 <script src="../js/lang-switcher.js"></script>

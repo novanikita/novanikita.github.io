@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
 """Generate English site copies in en/ from root-level *.html.
 
+Normally run as part of tools/build_site.py.
+
 Uses Google Translate via deep-translator, with a JSON cache under .cache/
 so reruns are fast. Fixes common BeautifulSoup serialization glitches.
+
+  python3 tools/build_en_site.py            # translate new strings online, then build
+  python3 tools/build_en_site.py --offline  # build from the cache only, list untranslated strings
+
+To fix a machine translation, edit its value in .cache/ru_en_translation.json and rebuild.
 """
 from __future__ import annotations
 
@@ -11,7 +18,7 @@ import re
 import sys
 import time
 from pathlib import Path
-from urllib.parse import urlsplit, urlunsplit
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 VENDOR = ROOT / ".vendor"
@@ -23,15 +30,33 @@ WS_ONLY = re.compile(r"^\s*$")
 SKIP_PARENTS = {"script", "style", "noscript"}
 
 sys.path.insert(0, str(VENDOR))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from bs4 import BeautifulSoup, NavigableString  # noqa: E402
+from site_common import (  # noqa: E402
+    AUTO_ALT,
+    NOT_TRANSLATED as SKIP_PAGES,
+    SECTIONS,
+    auto_alt,
+    describe,
+    page_url,
+    render_footer,
+    render_header,
+    short_title,
+    title_text,
+)
+
+from bs4 import BeautifulSoup, Comment, NavigableString  # noqa: E402
+
+OFFLINE = "--offline" in sys.argv[1:]
 
 try:
     from deep_translator import GoogleTranslator
 except ImportError as e:
     raise SystemExit(
-        "Install dependencies: python3 -m pip install --target .vendor deep-translator beautifulsoup4"
+        "Install dependencies: python3 -m pip install -r tools/requirements.txt"
     ) from e
+
+MISSING: set[str] = set()
 
 
 def load_cache() -> dict[str, str]:
@@ -51,6 +76,9 @@ def translate_one(translator: GoogleTranslator, text: str, cache: dict[str, str]
     stripped = text.strip()
     if not stripped or not CYR.search(text):
         cache[text] = text
+        return text
+    if OFFLINE:
+        MISSING.add(text)
         return text
     for attempt in range(4):
         try:
@@ -89,7 +117,7 @@ def collect_strings(soup: BeautifulSoup) -> set[str]:
     found: set[str] = set()
     for node in soup.find_all(string=True):
         parent = node.parent
-        if parent is None or parent.name in SKIP_PARENTS:
+        if parent is None or parent.name in SKIP_PARENTS or isinstance(node, Comment):
             continue
         s = str(node)
         if WS_ONLY.match(s) or not CYR.search(s):
@@ -110,7 +138,7 @@ def collect_strings(soup: BeautifulSoup) -> set[str]:
 def apply_translations(soup: BeautifulSoup, cache: dict[str, str], translator: GoogleTranslator) -> None:
     for node in soup.find_all(string=True):
         parent = node.parent
-        if parent is None or parent.name in SKIP_PARENTS:
+        if parent is None or parent.name in SKIP_PARENTS or isinstance(node, Comment):
             continue
         s = str(node)
         if WS_ONLY.match(s) or not CYR.search(s):
@@ -140,6 +168,90 @@ def fix_asset_urls(soup: BeautifulSoup) -> None:
                 tag[attr] = rewrite_url(v)
 
 
+TITLE_METAS = (("property", "og:title"), ("name", "twitter:title"), ("property", "og:image:alt"))
+DESCRIPTION_METAS = (("name", "description"), ("property", "og:description"), ("name", "twitter:description"))
+
+
+def find_meta(soup: BeautifulSoup, kind: str, key: str):
+    return soup.find("meta", attrs={kind: key})
+
+
+def prepare(soup: BeautifulSoup) -> dict:
+    """Take out what is generated rather than translated, so it is never sent to the translator.
+
+    The header/footer come from the English partials; auto alt texts, the hidden h1, title-based
+    meta tags and auto descriptions are rebuilt from the translated page in finish().
+    """
+    state: dict = {"alts": [], "hidden_h1": None, "auto_description": False}
+    body = soup.body
+    state["nav"] = body.get("data-nav") if body else None
+
+    description = find_meta(soup, "name", "description")
+    state["auto_description"] = description is not None and description.has_attr("data-auto")
+
+    header = soup.find(id="site-header")
+    if header is not None:
+        header.clear()
+    footer = soup.find(id="site-footer")
+    if footer is not None:
+        footer.clear()
+
+    for img in soup.find_all("img", alt=True):
+        m = AUTO_ALT.match(img["alt"])
+        if m:
+            state["alts"].append((img, int(m.group("n"))))
+            img["alt"] = ""
+    h1 = soup.find("h1", class_="visually-hidden")
+    if h1 is not None:
+        state["hidden_h1"] = h1
+        h1.clear()
+    for kind, key in TITLE_METAS:
+        tag = find_meta(soup, kind, key)
+        if tag is not None:
+            tag["content"] = ""
+    if state["auto_description"]:
+        for kind, key in DESCRIPTION_METAS:
+            tag = find_meta(soup, kind, key)
+            if tag is not None:
+                tag["content"] = ""
+    return state
+
+
+def finish(soup: BeautifulSoup, state: dict, name: str) -> None:
+    """Fill in the English versions of everything prepare() took out."""
+    title = short_title(soup)
+    for img, n in state["alts"]:
+        img["alt"] = auto_alt(title, n, "en")
+    if state["hidden_h1"] is not None:
+        state["hidden_h1"].string = title
+    for kind, key in TITLE_METAS:
+        tag = find_meta(soup, kind, key)
+        if tag is not None:
+            tag["content"] = title_text(soup)
+    if state["auto_description"]:
+        description = describe(soup, "en")
+        for kind, key in DESCRIPTION_METAS:
+            tag = find_meta(soup, kind, key)
+            if tag is not None:
+                tag["content"] = description
+
+    url = page_url(name, "en")
+    for tag in soup.find_all("meta", attrs={"property": "og:locale"}):
+        tag["content"] = "en_US"
+    for tag in soup.find_all("meta", attrs={"property": "og:url"}):
+        tag["content"] = url
+    for tag in soup.find_all("link", rel="canonical"):
+        tag["href"] = url
+
+    nav = state["nav"] or (name if name in SECTIONS else None)
+    header = soup.find(id="site-header")
+    if header is not None:
+        header.append(BeautifulSoup(render_header("en", name, nav), "html.parser"))
+    footer = soup.find(id="site-footer")
+    if footer is not None:
+        footer.replace_with(BeautifulSoup(render_footer("en", name), "html.parser"))
+
+
 def postprocess_html(html: str) -> str:
     html = html.replace("</link>", "")
     html = html.replace("</meta>", "")
@@ -153,8 +265,10 @@ def build_one(path: Path, translator: GoogleTranslator, cache: dict[str, str]) -
     if soup.html is not None:
         soup.html["lang"] = "en"
 
+    state = prepare(soup)
     apply_translations(soup, cache, translator)
     fix_asset_urls(soup)
+    finish(soup, state, path.name)
 
     out = postprocess_html(str(soup))
     EN_DIR.mkdir(parents=True, exist_ok=True)
@@ -162,10 +276,10 @@ def build_one(path: Path, translator: GoogleTranslator, cache: dict[str, str]) -
 
 
 def main() -> None:
-    translator = GoogleTranslator(source="ru", target="en")
+    translator = None if OFFLINE else GoogleTranslator(source="ru", target="en")
     cache = load_cache()
 
-    html_files = sorted(p for p in ROOT.glob("*.html") if p.is_file())
+    html_files = sorted(p for p in ROOT.glob("*.html") if p.is_file() and p.name not in SKIP_PAGES)
     if not html_files:
         print("No HTML files at repo root.")
         return
@@ -174,6 +288,7 @@ def main() -> None:
     all_strings: set[str] = set()
     for p in html_files:
         soup = BeautifulSoup(p.read_text(encoding="utf-8"), "html.parser")
+        prepare(soup)
         all_strings |= collect_strings(soup)
 
     pending = [s for s in sorted(all_strings, key=len) if s not in cache and CYR.search(s)]
@@ -192,7 +307,18 @@ def main() -> None:
         build_one(p, translator, cache)
         print(f"wrote en/{p.name}")
 
+    # English copies of pages that no longer exist (or are templates)
+    sources = {p.name for p in html_files}
+    for stale in sorted(EN_DIR.glob("*.html")):
+        if stale.name not in sources:
+            stale.unlink()
+            print(f"removed en/{stale.name}")
+
     save_cache(cache)
+    if MISSING:
+        print(f"\n{len(MISSING)} strings are not translated yet (left in Russian):")
+        for s in sorted(MISSING, key=len):
+            print("  " + json.dumps(s, ensure_ascii=False))
     print("Done.")
 
 

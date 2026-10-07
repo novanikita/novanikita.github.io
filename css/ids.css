@@ -2,7 +2,6 @@
   & a {
     color: rgb(var(--ids__link-RGB));
     text-decoration: underline;
-    will-change: color;
     text-decoration-thickness: 1px;
     text-underline-offset: 0.25em;
     text-decoration-color: rgba(var(--ids__link-RGB), 0.2);
@@ -148,7 +147,7 @@
     padding-left: calc(var(--ids__density) * 0.5em);
     border-radius: 0.2em;
 
-    @media (--ids__mobile) {
+    @media screen and (max-width: 768px) {
       padding-right: calc(var(--ids__density) * 0.75em);
     }
 
@@ -196,10 +195,10 @@
   & details {
     padding: 0.5em;
     cursor: pointer;
-    border-radius: var(--ids__radius);
+    border-radius: var(--ids__radius, 0.2em);
 
     & summary {
-      padding-bottom: var(--ids__micro-padding);
+      padding-bottom: var(--ids__micro-padding, 0.25em);
     }
   }
 

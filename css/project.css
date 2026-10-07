@@ -7,43 +7,122 @@ header {
         padding: 0.5em;
         margin-bottom: 2em;
     }
-    
-    & .logo {
-        font-size: 1.4em;
-        line-height: 1.2;
-        margin-right: 1em;
-
-            @media screen and (max-width: 768px) {
-                width: 50%;
-                font-size: 1em;
-        }
-    }
-
-    & .nav {
-        display: flex;
-        font-size: 1.4em;
-        line-height: 1.2;
-
-        @media screen and (max-width: 768px) {
-            width: 50%;
-            font-size: 1em;
-            flex-direction: column;
-
-        }
-
-        & .nav-item {
-            margin-right: 1em;
-                @media screen and (max-width: 768px) {
-                margin-right: 0;
-                margin-bottom: 0.5em;
-                
-            }
-        }
-    }
 }
 
 /* NAVIGATION HEADER */
 
+.site-header {
+    justify-content: space-between;
+}
+
+/* Burger button, phones only */
+.menu-toggle {
+    display: none;
+    position: relative;
+    flex: none;
+    width: 1.2em;
+    height: 1.2em;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: rgb(var(--ids__text-RGB));
+    font-size: 1.4em; /* same as .site-title, so the icon sits on its first line */
+    cursor: pointer;
+}
+
+.menu-toggle__icon,
+.menu-toggle__icon::before,
+.menu-toggle__icon::after {
+    position: absolute;
+    left: 0.1em;
+    right: 0.1em;
+    height: 2px;
+    background: currentColor;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.menu-toggle__icon {
+    top: 50%;
+    margin-top: -1px;
+}
+
+.menu-toggle__icon::before,
+.menu-toggle__icon::after {
+    content: "";
+    left: 0;
+    right: 0;
+}
+
+.menu-toggle__icon::before {
+    transform: translateY(-0.3em);
+}
+
+.menu-toggle__icon::after {
+    transform: translateY(0.3em);
+}
+
+.is-menu-open .menu-toggle__icon {
+    background-color: transparent;
+}
+
+.is-menu-open .menu-toggle__icon::before {
+    transform: rotate(45deg);
+}
+
+.is-menu-open .menu-toggle__icon::after {
+    transform: rotate(-45deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .menu-toggle__icon,
+    .menu-toggle__icon::before,
+    .menu-toggle__icon::after {
+        transition: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .site-header {
+        flex-wrap: wrap;
+        align-items: flex-start;
+        column-gap: 1em;
+    }
+
+    .site-header .main-page-header {
+        flex: 1 1 0;
+        width: auto;
+    }
+
+    .site-header .menu-toggle {
+        display: block;
+    }
+
+    /* Without the burger (no JS) the menu wraps under the name */
+    .site-header .main-page-nav {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 0.4em 1em;
+    }
+
+    .site-header.has-menu .main-page-nav {
+        display: none;
+    }
+
+    .site-header.is-menu-open {
+        /* covers the background video on the home page */
+        background: rgb(var(--ids__background-RGB));
+    }
+
+    .site-header.has-menu.is-menu-open .main-page-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5em;
+        padding: 0.6em 0 0.4em;
+        font-size: 1.4em;
+    }
+}
 
 /* MAIN PAGE */
 
@@ -92,6 +171,26 @@ header {
 
 .main-page-header a {
     text-decoration: none;
+}
+
+/* The site name looks like h1.S but isn't a heading: every page has its own h1 */
+.ids .site-title {
+    font-size: 1.4em;
+    line-height: 1.2;
+    margin: 0 0 0.4em;
+}
+
+/* Hidden from view, still read by screen readers and search engines */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
 }
 
 /* PORTFOLIO PAGE */
@@ -148,6 +247,15 @@ a.project-promo-link {
         transition: filter 0s ease;
         filter: brightness(110%);
 
+    }
+
+    /* "Soon" cards have no href */
+    &:not([href]) {
+        cursor: default;
+
+        &:hover {
+            filter: none;
+        }
     }
 }
 
@@ -222,12 +330,6 @@ a.project-promo-link {
     }
 }
 
-.main-page {
-    display: flex;
-    justify-content: space-between;
-    
-}
-
 footer {
     position: relative;
     margin: 10em 1em 10em 1em;
@@ -240,14 +342,6 @@ footer {
         gap: 1.5em;
         margin: 7em 0;
     }
-}
-
-.main-page {
-  footer{
-    div{
-      text-align: left;
-    }
-  }
 }
 
 .caption {
@@ -295,56 +389,13 @@ footer {
     border-color: currentColor;
 }
 
-/*.table {
-    position: relative;
-    overflow: scroll;
-    font-size: 1em;
-    border-bottom: 1px solid rgba(var(--ids__text-RGB), 0.15);
-
-    display: table;
-    border-collapse: separate;
-    text-indent: initial;
-    unicode-bidi: isolate;
-    border-color: gray;
-
-    thead {
-
-        display: table-header-group;
-        vertical-align: middle;
-        unicode-bidi: isolate;
-        border-color: inherit;
-
-      tr {
-        th {
-          text-align: left;
-          padding-left: 0em;
-          position: sticky;
-          background: #ffffffff;
-          top: 0;
-          
-        }
-      }
-    }
-    tbody {
-      tr {
-        transition: background-color 1.5s ease;
-
-        &:hover {
-          background-color: #edededff;
-          transition: background-color 0s ease;
-        }
-
-        td {
-          padding: 0.35em 0.5em 1.4em 0em;
-          vertical-align: top;
-        }
-      }
-    }
-  }*/
-
 .table-wrapper {
   width: 100%;
-  overflow-x: auto;
+
+  /* Horizontal scroll only where the table may not fit; on desktop it would break the sticky header */
+  @media screen and (max-width: 768px) {
+    overflow-x: auto;
+  }
 }
 
 .custom-table {
@@ -398,6 +449,10 @@ footer {
     }
 
     & code {
+      /* An atomic box: a chip never splits between lines, but a chip wider than the screen can still wrap inside */
+      display: inline-block;
+      max-width: 100%;
+      line-height: 1.2;
       cursor: pointer;
       user-select: none;
       border: 1px solid transparent;
@@ -421,8 +476,39 @@ footer {
     }
 }
 
-.projects-grid-item.is-filtered-out {
+.is-filtered-out {
   display: none;
+}
+
+/* NOTES LIST: titles in a column with dividers.
+   Size and line height are the IDS h1 / .loud ones, the divider is the IDS hr. */
+
+.title-list {
+  & .title-list__item:not([hidden]) ~ .title-list__item:not([hidden]) {
+    border-top: 1px solid rgba(var(--ids__text-RGB), 0.2);
+  }
+}
+
+.ids .title-list__title {
+  margin: 0;
+  padding: 0.25em 0 0.3em;
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 1.2;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.5em;
+  }
+
+  & a {
+    display: block;
+    color: rgb(var(--ids__text-RGB));
+    text-decoration: none;
+  }
+
+  & a:hover {
+    color: rgb(var(--ids__hover-RGB));
+  }
 }
 
 .portfolio-footer {
