@@ -1,13 +1,25 @@
-# macOS
-.DS_Store
+# build output and caches
+dist/
+.astro/
+node_modules/
 
-# Python deps for tools/build_en_site.py (install with: python3 -m pip install --target .vendor -r tools/requirements.txt)
+# logs
+npm-debug.log*
+
+# environment variables
+.env
+.env.production
+
+# macOS, editors
+.DS_Store
+.idea/
+
+# Local backups of full-size originals (images, video) — not part of the site
+.originals/
+
+# Old Python tools of the pre-Astro site (no longer used)
 .vendor/
 __pycache__/
-*.pyc
 
-# Design sources — keep them out of the published site
+# Design sources
 *.psd
-
-# Local backups of full-size originals (images, video) replaced by web versions
-.originals/
