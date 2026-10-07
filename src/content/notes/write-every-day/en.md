@@ -5,20 +5,20 @@ meta:
   - "November 22, 2024"
 ---
 
-It doesn’t matter whether you have a tg channel, whether you work as an editor or not - you need to write. Every day.
+It doesn’t matter whether you have a Telegram channel or work as an editor — you should write. Every day.
 
-When I first started running my channel, I wrote every day for 3-4 months without stopping. Sometimes there are several posts. I still write every day: posts, scripts, working documents. What has changed during this time?
+When I first started my channel, I wrote every day for 3–4 months without a break, sometimes several posts a day. I still write every day: posts, scripts, work documents. What has changed since then?
 
-First, in speech and thoughts, structure has become automatic. Imagine that your brain can produce the same clear, logical and structured answers as a neuron. Or as a pre-prepared text?
+First, structure in my speech and thoughts became automatic. Imagine your brain producing answers as clear, logical and structured as a neural network’s. Or as a text prepared in advance.
 
-This is becoming reality. First, you spend a long time coming up with a structure and rewriting it many times. Then you understand in advance how you can reveal the topic. This then happens automatically inside your head and you simply write down the words behind your internal speaker.
+It becomes real. At first you spend a long time inventing the structure and rewrite it many times. Then you know in advance how to unfold the topic. And then it happens automatically inside your head, and you just write down the words after your inner narrator.
 
-Secondly, you piss less. Share something, tell a story, and, if necessary, grab people’s attention. You get used to openness. And you stop striving for your thoughts, interests, reasoning. Because this also found its reader.
+Second, you chicken out less. Sharing something, telling a story, taking people’s attention when you need it. You get used to being open and stop being embarrassed about your thoughts, interests and reasoning, because even those find their reader.
 
-Over the course of 18 months, we hated and loved pets there, discussed Antonov and childhood memories, joked about my online life, and lived as workers.
+Over 18 months there, we hated and loved pets, discussed guys named Anton and childhood memories, joked about my OnlyFans and lived through work screw-ups.
 
-Thirdly, it becomes more complicated. After 30-40 posts of the same type “heading + 2 paragraphs with arguments”, a new stage comes. What is the most interesting way to tell a story? How to make me angry? Fall in love? How to build dramaturgy?
+Third, you get more complex. After 30–40 similar posts of “headline + 2 paragraphs of arguments”, a new stage comes. How do you tell a story in a more interesting way? How do you make people furious? Make them fall in love? How do you build drama?
 
-And, again, you begin to speak better. Convince, argue, listen, ask questions. Everyone has ambitions. And I think for many they are associated with influence - and influence is gained by speakers.
+And, again, you start talking better: persuading, arguing, listening, asking questions. Everyone has ambitions, and I think for many people they’re about influence — and influence goes to speakers.
 
-So, write every day.
+So write every day.

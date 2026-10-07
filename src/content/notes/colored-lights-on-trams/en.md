@@ -1,75 +1,75 @@
 ---
-title: "Why do trams in St. Petersburg need colored lights?"
+title: "Why do Saint Petersburg trams have colored lights?"
 meta:
   - "February 8, 2022"
 ---
 
-*Night, street, lantern, pharmacy,<br> Pointless and dim light.*
+*Night, a street, a lamp, a drugstore,<br> A meaningless and dismal light.*
 
 <div class="ids__space M"></div>
 
 Or maybe not so meaningless?
 
-![Examples of colored lights on trams in St. Petersburg](./tram-1.avif)
+![Examples of colored lights on Saint Petersburg trams](./tram-1.avif)
 
 <div class="ids__space M"></div>
 
-## Where it all began
+## How it all began
 
-The light designation of trams appeared in 1908, a year after the launch of the first St. Petersburg train. This is a brilliant solution for at least three reasons:
+Trams got their light codes in 1908, a year after the first tram ran in Saint Petersburg. It was a brilliant solution for at least three reasons:
 
-- **Population migration.** Peasants begin to come to the city, who have not seen anything except a haystack, and have not ridden anything except a mare. Obviously, it is easier for them to navigate by colors than by numbers.
-- **Features of transport.** Riddle: How many people does it take to operate a tram in the 20th century? Answer: at least two. One is a driver inside the train, the second is a switchman at a crossroads. It is more difficult to confuse a red and green signal from afar than the numbers 6 and 8. This means that the switchman will have time to react and switch the rails to the desired path.
-- **Landscape specificity.** If you simplify the map of St. Petersburg to a diagram, you will notice that it consists of long straight segments with intersections at right angles. From the stop on Nevsky you can see the tram that crosses the Fontanka or turns onto Liteiny. The straight layout of the streets is also helped by the city’s flat topography.
+- **Migration.** Peasants were starting to move to the city — people who had seen nothing but haystacks and ridden nothing but mares. Obviously, colors were easier for them to navigate by than numbers.
+- **How the transport worked.** A riddle: how many people did it take to run a tram in the 20th century? Answer: at least two. One was the driver inside the car, the other was the switchman at the junction. A red and a green signal are harder to confuse from a distance than the numbers 6 and 8, so the switchman had time to react and switch the rails to the right track.
+- **The landscape.** If you simplify the map of Saint Petersburg into a diagram, you’ll notice that it’s made of long straight sections crossing at right angles. From a stop on Nevsky Prospekt you can see a tram crossing the Fontanka or turning onto Liteyny. The flat terrain of the city helps the straight streets too.
 
-These factors come together into one power ranger with the super power "Perfect Visibility".
+These factors combine into one Power Ranger with the superpower “Perfect visibility”.
 
-Previously, tickets were sold in different colors, this further helped the formation of associations among passengers. It seems that your perception is too banal and stereotyped, since you can be so easily manipulated by two light bulbs and colored tickets?
+Tickets used to come in different colors too, which helped passengers build associations even more. Do you think your perception must be too banal and predictable if two light bulbs and colored tickets can manipulate you so easily?
 
-Don't be upset, but rejoice! Allow designers to expand the zone of your unconscious decisions to leave more conscious resource for the important problems.
-
-<div class="ids__space M"></div>
-
-## What does the poet have to do with it?
-
-By the way, I’m not just quoting Blok: in the futurist’s texts you can find his tram route around the city:
-
-Dekabristov, 57 - the house of Alexander Alexandrovich, here he wrote the poem “The Twelve”. We see the yellow and blue colors of the tram - we sit down and rush to Lenin Square. We are looking for green and white - we go to Ozerki. By the way, it is believed that it was in the smoky hall of the Ozerki station restaurant that Blok came up with (or met?) the same Stranger from the poem.
-
-Now - to nature. In 1920, tram service opened to the village of Strelna - Blok went there in recent years to swim and walk in the fresh air.
-
-*All around - snow, trams, buildings,<br> And ahead there are lights and darkness.*
+Don’t be upset — be glad! Let designers widen the zone of your unconscious decisions, so you have more conscious resources left for important problems.
 
 <div class="ids__space M"></div>
 
-## The evolution of light navigation
+## What does the poet have to do with it
 
-The “lights” were not always “lights”: at first there were two painted triangles in their place. Then they were replaced with colored lenses, and the “simplified” carriages of the new types did not provide space for lenses at all.
+By the way, I’m not quoting Blok for nothing: in his poems you can trace his tram route through the city.
 
-In the 70s, citizens began to increasingly ask the city government to return route lights to hundreds of trams.
+57 Dekabristov Street is Alexander Alexandrovich’s house, where he wrote the poem “The Twelve”. We see the yellow and blue colors of a tram, get on and speed to Lenin Square. Look for green and white, and get off at Ozerki. By the way, it’s believed that it was in the smoky hall of the Ozerki station restaurant that Blok came up with (or met?) the very Stranger from his poem.
 
-And by the 1980s, large plates of colored thin glass were used on two thousand carriages, but this caused difficulties in maintenance. Would you be surprised if I told you that thin glass tends to break and that new glass is expensive to make? And “expensive” multiplied by “often” results in a complete collapse of the economy. Therefore, such trams often stood in depots rather than traveling along the streets of St. Petersburg.
+Now, out into nature. In 1920, trams started running to the village of Strelna, where in his last years Blok would go to swim and walk in the fresh air.
 
-Then the crisis of the 90s finally finished off the desire to design urban space to be unconsciously comfortable; there was not enough money for colored glass and painting of carriages. The idea was abandoned, and the trams ran in the form in which they remained after the experiments of the 80s. They tried to spend as little budget as possible on their production, and the glass was removed.
+*All around — snow, trams, buildings,<br> And ahead — lights and darkness.*
 
-Later, when the crisis subsided, it became possible to use not thin colored glass, but ordinary window glass, onto which colored film was glued. Changing film on glass is still a hassle.
+<div class="ids__space M"></div>
 
-The 2000s have arrived: why bother with painted or glued glass, can’t you come up with something better? Bulb? Flashlight? LEDs! On new carriages produced in St. Petersburg, the lights are made up of LEDs - this allows you to change the combination of colors if the carriage is switched to another route. You no longer need to change or rub the glass, just turn on the lights and use it!
+## How the light signals evolved
 
-There are five primary colors used for designation: white, yellow, green, red and blue. With their help you can achieve 25 unique combinations.
+The “lights” weren’t always lights: at first there were two painted triangles in their place. Then they were replaced with colored lenses, and the “simplified” cars of newer types had no place for lenses at all.
 
-Not only the combination of lights matters, but also their order. This is enough so that routes with the same lights do not intersect - they are simply placed in different parts of the city.
+In the 70s, residents more and more often asked the city administration to bring route lights back to hundreds of trams.
+
+By the 80s, two thousand cars used large plates of thin colored glass, but that made maintenance difficult. Would you be surprised if I told you that thin glass breaks often and making new glass is expensive? “Expensive” times “often” equals a total economic collapse. So these trams spent more time in the depot than on the streets of Saint Petersburg.
+
+Then the crisis of the 90s finally killed any wish to design the city to be unconsciously convenient: there wasn’t enough money for colored glass or painting the cars. The idea was dropped, and the trams ran in whatever state they were left in after the experiments of the 80s. Their production got as little budget as possible, and the glass was removed.
+
+Later, when the crisis faded, it became possible to use ordinary window glass with colored film on it instead of thin colored glass. Changing the film on the glass was still a pain.
+
+Then came the 2000s: why bother with painted or film-covered glass — surely there’s something better? A light bulb? A lamp? LEDs! On new cars made in Saint Petersburg, the lights are built from LEDs, so the color combination can be changed when a car is moved to another route. No more changing and polishing little panes — just switch on the lights and go!
+
+Five main colors are used: white, yellow, green, red and blue. Together they give 25 unique combinations.
+
+Not only the combination of lights matters, but also their order. That’s enough for routes with the same lights never to cross — they’re simply placed in different parts of the city.
 
 <div class="ids__space M"></div>
 
 ## The result of progress is our free time
 
-It’s hard to imagine now, but a few decades ago the main function of the metro was performed by the tram. Leningraders deservedly called it the “second metro”, and the city – “the tram capital of the world”. St. Petersburg was created for trams, remember about the terrain and street design?
+It’s hard to imagine now, but just a few decades ago the tram did the main job of the metro. Leningraders rightly called it “the second metro”, and the city “the tram capital of the world”. Saint Petersburg was made for trams — remember the terrain and the layout of the streets?
 
-The color gradation on St. Petersburg trams is the bone of a large whale of convenience. Each bone creates a world for us in which it is comfortable to unload our brain and transfer some processes to the unconscious. Turn on autopilot and spend time on happiness, people around, contemplation and work, and not remember numbers, of which there are many without trams. It seems that boards on trams and problem solving are not related things? This is true.
+The color coding on Saint Petersburg trams is one bone of the big whale of convenience. Each bone builds a world for us where it’s comfortable to unload our brain and move some processes into the unconscious. To switch on autopilot and spend our time on happiness, the people around us, contemplation and work, rather than memorizing numbers — there are plenty of those without trams. Do the displays on trams and solving problems seem unrelated? That’s true.
 
-LEDs alone will not solve our problems. But now, when we are going home, our hand has already found the travel card while we were thinking about what to cook for dinner. We automatically boarded the tram while we were thinking about what to give to a friend.
+LEDs alone won’t solve our problems. But now, on the way home, our hand has already found the travel card while we were thinking about what to cook for dinner. We automatically got on the tram while thinking about what to give a friend.
 
-We still have our problems, but now we have 15 seconds more to come up with a solution to them. These seconds add up, adding up to tens of minutes per day, and it’s up to you to decide what to spend them on.
+We still have our problems, but now we have 15 more seconds to come up with a solution. These seconds add up to dozens of minutes a day, and what to spend them on is up to you.
 
-*And everything will repeat itself as before:<br> Night, icy ripples of the channel,<br> Pharmacy, street, lamp.*
+*And all repeats as it once was:<br> The night, the canal’s icy ripple,<br> The drugstore, the street, the lamp.*

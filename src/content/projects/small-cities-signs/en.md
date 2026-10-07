@@ -1,7 +1,7 @@
 ---
-title: "Navigation for the interiors of Dodo pizzerias"
+title: "Wayfinding for Dodo pizzeria interiors"
 ---
 
-Task: To create neutral and cheap to produce signs that can be installed simply and with minimal error in small pizzerias.
+Brief: create neutral signs that are cheap to produce and easy to install accurately in small pizzerias.
 
-Made in 1 month with [Intuition](https://intuition.team/ru/i)in 2024
+Made in 1 month with [Intuition](https://intuition.team/ru/i) in 2024

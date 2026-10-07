@@ -1,13 +1,13 @@
 ---
-title: "Book “Storytelling of the Nenets Malitsa”"
+title: "“Storytelling of the Nenets Malitsa”, a book"
 ---
 
-Task: to design a book about folk art of our native land.
+Brief: design a book about the folk art of my home region.
 
-In the north there are people who, instead of telegram channels, build their personal brand directly on the fur coats they wear. Ornaments on clothing and household items tell about a person’s character, life events and origins.
+In the north there are people who, instead of running Telegram channels, build their personal brand right on the fur coats they wear. The ornaments on clothes and household objects tell about a person’s character, life events and origin.
 
-For this book I collected and redrew 29 basic patterns. I deciphered several outfits. I drew the “Polar” font, which is used on the pages with definitions. Through diagrams and articles, I revealed the life of the Nenets.
+For this book I collected and redrew 29 main ornaments, decoded several outfits and drew the Polyarny (“Polar”) typeface used on the pages with definitions. Through diagrams and articles, the book shows the everyday life of the Nenets.
 
 Made in 3 months in 2021
 
-Curator: Alexandra Osipova
+Supervisor: Alexandra Osipova

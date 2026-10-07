@@ -1,3 +1,3 @@
 ---
-title: "Flowerdog website"
+title: "Website for flowerdog"
 ---

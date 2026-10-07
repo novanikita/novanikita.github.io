@@ -1,10 +1,9 @@
 ---
-title: "Drop “First letter of the alphabet” No. 6"
-cardTitle: "Drop “First letter of the alphabet No. 6”"
+title: "“First Letter of the Alphabet” drop #6"
 ---
 
-The first letter of the alphabet is a collection of things for like-minded people. A reminder that you are the first in your life, the rest comes later.
+“First Letter of the Alphabet” is a collection for like-minded people. A reminder that you come first in your life, and the rest comes later.
 
-Words are unnecessary.
+No words needed.
 
 Made in 1 day in 2025

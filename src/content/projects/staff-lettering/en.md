@@ -1,8 +1,8 @@
 ---
-title: "Lettering for the staff room at Dodo Pizza on Myasnitskaya"
+title: "Lettering for the staff room at Dodo Pizza on Myasnitskaya Street"
 cardTitle: "Lettering for the staff room"
 ---
 
-Task: adapt lettering from English into Russian while maintaining the style.
+Brief: adapt the lettering from English into Russian while keeping its style.
 
 Made in 2 days in 2025

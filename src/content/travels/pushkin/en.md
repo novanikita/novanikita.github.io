@@ -1,6 +1,6 @@
 ---
-title: "Pushkin: city-alley"
+title: "Pushkin: a city of alleys"
 cardTitle: "Pushkin"
 ---
 
-Viewed in 1 day
+Explored in 1 day

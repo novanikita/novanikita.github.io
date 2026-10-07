@@ -1,11 +1,11 @@
 ---
-title: "Maps for the film"
+title: "Cards for a film"
 ---
 
-Task: make a deck of cards for a video with a story about design.
+Brief: make a deck of cards for a video telling a design story.
 
-I have a hobby - making videos with stories about design. There I come up with a new way to tell the story every time. At the same time, neuro-graphics begins to infuriate, because they appear in every second video. Therefore, I became interested in how else I could use neurons so as not to end up in the general pile of neuro-content.
+My hobby is making videos with stories about design, and every time I come up with a new way to tell the story. At the same time, AI graphics have started to annoy me because they show up in every other video. So I wondered how else neural networks could be used without ending up in the general pile of AI content.
 
-I needed to create many illustrations in the same style. With regular LLMs, it would be difficult to maintain a consistent style beyond 10 illustrations. That's why I used LoRA - the ability to train neurons for a specific style. I made some LoRAs myself, some I took ready-made ones.
+I needed lots of illustrations in one style. With ordinary image models it’s hard to keep the style consistent beyond 10 illustrations, so I used LoRA, a way to train a neural network on a specific style. I made some of the LoRAs myself and took some ready-made ones.
 
 Made in 1 week in 2025

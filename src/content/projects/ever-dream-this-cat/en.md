@@ -1,5 +1,5 @@
 ---
-title: "Drop “Ever dream this cat”"
+title: "“Ever dream this cat” drop"
 ---
 
-Made in 2026
+Made in 2026

@@ -1,3 +1,3 @@
 ---
-title: "News No. 5"
+title: "Novasti #5"
 ---

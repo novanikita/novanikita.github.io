@@ -1,18 +1,18 @@
 ---
-title: "How to properly design a book spine?"
+title: "How to design a book spine the right way?"
 meta:
   - "August 15, 2023"
 ---
 
-If you look at a bookshelf, your world will never be the same. This is because the spines of some books are designed from bottom to top, while others are designed from top to bottom.
+Once you look at a bookshelf, your world will never be the same. That’s because the spines of some books read from bottom to top, and others from top to bottom.
 
-What's the point? Which is correct? I'll tell you now.
+What’s the point? Which way is right? Let me explain.
 
 <div class="ids__space M"></div>
 
 ## Two traditions
 
-First, you need to understand: there are two typographic traditions: Russian and European. It is typical for European to design the spine starting from the top, so you can read it by tilting your head to the right.
+First of all, there are two typographic traditions: Russian and European. The European one runs the spine from the top down, so you read it by tilting your head to the right.
 
 <div class="ids__space S"></div>
 
@@ -20,35 +20,35 @@ First, you need to understand: there are two typographic traditions: Russian and
 
 <div class="ids__space S"></div>
 
-In the Russian tradition, the name is written from bottom to top, so you can read it by tilting your head to the left.
+In the Russian tradition the title runs from the bottom up, so you read it by tilting your head to the left.
 
 <div class="ids__space S"></div>
 
-![European spine options](./book-2.avif)
+![Russian spine options](./book-2.avif)
 
 <div class="ids__space S"></div>
 
-It's more readable. Moreover: without tilting our heads, but looking straight at the bookshelf, we are more likely to read the spine that is designed in the Russian tradition.
+This reads more easily. What’s more, if you look straight at a bookshelf without tilting your head, you are more likely to read the spine designed in the Russian tradition.
 
 <div class="ids__space M"></div>
 
-*\- It turns out that it’s correct - the way we did it, and we need to continue the same way?*
+*— So the right way is the way we’ve always done it, and we should just keep going?*
 
-Not really.
+Not quite.
 
 <div class="ids__space M"></div>
 
 ## How to do it right?
 
-In my opinion, before adhering to any traditions, you need to answer the following questions: *“What am I designing? How will my designs live after me?”*.
+In my opinion, before following any tradition you need to answer a couple of questions: *“What am I designing? How will my designs live once they leave my hands?”*
 
-Through my experience I have come to the following rule:
+From my experience, I’ve come to this rule:
 
-- If the book is for the shelf, then the Russian spine. We write the title from bottom to top, maintaining readability in the vertical position of the publication.
-- If the book is for the table, then it has a European spine. When the book is on the table, we can easily read its title.
+- If the book is for a shelf, use the Russian spine. The title runs bottom to top, so it stays readable when the book stands upright.
+- If the book is for a table, use the European spine. When the book lies on the table, its title is easy to read.
 
-Lately this has been considered incorrect, but otherwise we get a coffee table book with an inverted title on the spine. Then, no matter which way you turn your head, it’s difficult to read the name.
+Lately this has been considered wrong, but otherwise you get a coffee-table book with an upside-down title on its spine. Then whichever way you turn your head, the title is hard to read.
 
-Before you follow any rules and traditions, you should think about: *“What and why am I doing?”*. You can be as principled and traditional as you like, but still make a stillborn and weak design.
+Before following rules and traditions, it’s worth asking yourself: *“What am I making, and why?”* You can be as principled and traditional as you like and still make stillborn, weak design.
 
-The author of this article does not call for breaking the rules, but calls for thinking: what rules and when to follow.
+The author of this article isn’t calling on you to break rules — only to think about which rules to follow and when.

@@ -1,3 +1,3 @@
 ---
-title: "Landing for Yandex Direct"
+title: "Landing page for Yandex Direct"
 ---

@@ -1,37 +1,37 @@
 ---
-title: "Beauty: symmetry, conventionality, neatness, education and spirituality"
+title: "Beauty: symmetry, conventionality, neatness, upbringing and spirituality"
 listTitle: "Beauty"
 meta:
-  - "26.02.2025"
+  - "February 26, 2025"
 ---
 
-I have been thinking about the beauty of people for a long time. My story of self-development began with this question. In fifth grade I decided:
+I’ve been thinking about human beauty for a long time. It’s the question that started my whole self-development story. Somewhere around fifth grade I decided:
 
-*\- Well, since you weren’t lucky with your face, you need to at least become smart. And then I’ll figure it out.*
+*— Well, since I wasn’t lucky with my face, I should at least be smart. I’ll figure out the rest later.*
 
-It was there that I started reading all sorts of books.
+That’s roughly when I started reading all sorts of books.
 
 <div class="ids__space M"></div>
 
-I don’t believe in the idea that appearance is not important. So we are not considering this option. Appearance is important, it plays a role in society. And you can start judging a book from its cover. Have a conscience and respect graphic designers!
+I don’t believe that looks don’t matter, so we won’t even consider that option. Looks matter; they play a role in society. And yes, you can judge a book by its cover. Have some respect for graphic designers!
 
-But here’s the truth—beauty has many dimensions. So, for those who, like me, were not given a conventional face, don’t be upset, but read this note.
+But here’s what is true: beauty has many parameters. So if, like me, you weren’t blessed with a conventional face, don’t be upset — read this note.
 
-Have you definitely been in such situations at least once in your life:
+You’ve surely been in these situations at least once:
 
-The first situation: in the photographs / at the next table in the cafe / Aphrodite, or Apollo, is walking towards a meeting on the street. You just can’t take your eyes off the person. But as soon as you start talking you become disappointed. And before our eyes the person loses his attractiveness. And he becomes disgusted. Although objectively nothing has changed.
+Situation one: in photos, at the next table in a café or walking toward you down the street, there’s an Aphrodite, or an Apollo. You can’t take your eyes off them. But the moment you start talking, you’re disappointed. The person loses their appeal right in front of you and even becomes repulsive. Although objectively nothing has changed.
 
-For example, Andy Warhol calls this phenomenon an aura. She lives from the moment of the first meeting to the moment of the first conversation. And then he dies and you will never be able to see the aura of this person again. Precisely from the point of view of flair, anticipation - and not from the point of view of magic.
+Andy Warhol, for example, called this phenomenon an aura. It lives from the moment you first see someone until your first conversation. Then it dies, and you never see that person’s aura again. Aura in the sense of allure and anticipation, not magic.
 
-The second situation: you turn on a movie or video, or meet a new person. In general, some new character appears. And at first he was somehow ordinary, so nondescript. Or maybe even completely ugly!! But then he begins to talk and behave in a certain way. And step by step. Second by second. The ugly duckling blossoms into a swan. Although, just like in the first case, the person did not have time to change in a couple of hours.
-
-<div class="ids__space L"></div>
-
-That is, beauty is not just subjective. She is dynamic. And it is influenced by a little more parameters than taste.
+Situation two: you start a film or a video, or meet someone new — in short, a new character appears. At first they seem ordinary, plain. Maybe even downright unattractive! But then they start talking and behaving in a certain way, and step by step, second by second, the ugly duckling blossoms into a swan. Although, just like in the first case, the person couldn’t have changed in a couple of hours.
 
 <div class="ids__space L"></div>
 
-Here they are from left to right:
+So beauty isn’t just subjective. It’s dynamic. And it depends on a few more parameters than taste.
+
+<div class="ids__space L"></div>
+
+Here they are, from left to right:
 
 - Symmetry
 - Conventionality
@@ -39,12 +39,12 @@ Here they are from left to right:
 - Upbringing
 - Spirituality
 
-Hooray! This means you no longer have to suffer from the fact that your appearance is unconventional. It took me a lot of time and money for a psychologist to let go of this moment. But I saw that I was symmetrical, and I admit that on an unconscious level this affects people.
+Hooray! It means you don’t have to suffer over unconventional looks anymore. It took me a lot of time and money spent on therapy to let that go. But I did notice that I’m symmetrical, and I suspect that affects people on a subconscious level.
 
-Now we have several origins of beauty. As many as five. And this creates a large matrix of options for a person’s beauty. For example, neat and well-mannered, but unconventional and spiritually poor. Well, you understand.
+So now we have several sources of beauty. Five of them. That makes a big matrix of ways a person can be beautiful. For example, neat and well-mannered, but unconventional and spiritually poor. You get the idea.
 
-Then there may be an ideal person - one in whom all five parameters are pumped into the absolute.
+Then an ideal person could exist — one with all five parameters maxed out.
 
-This statement in itself smacks of neurosis and perfectionism. As if you can still be beautiful only if you get five out of five. And this system is about something else. That beauty is in two out of five or three out of five. And you can be far from conventional - but still be a bitch.
+That statement alone smells of neurosis and perfectionism, as if you can only be beautiful with five out of five. This system is about the opposite: beauty in two out of five, or three out of five. You can be far from conventional and still be fucking gorgeous.
 
-Now I like to break down all people into their beauty parameters. Thinking about how this person is beautiful to me. Or, on the contrary, think how it happened that he turned out to be such an asshole.
+Now I like breaking everyone down into these parameters of beauty. Thinking about what makes a person beautiful to me. Or, on the contrary, how they managed to turn out to be such an asshole.

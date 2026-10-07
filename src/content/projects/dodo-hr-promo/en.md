@@ -1,9 +1,9 @@
 ---
-title: "HR promotional campaign for Dodo"
+title: "HR promo campaign for Dodo"
 ---
 
-Task: to design online and offline banners to attract couriers and cashiers to Dodo Pizza
+Brief: design online and offline banners to hire couriers and cashiers for Dodo Pizza
 
 Made in 1 month in 2024
 
-Made with [Intuition](https://intuition.team/ru/i)
+Made with [Intuition](https://intuition.team/ru/i)

@@ -1,3 +1,3 @@
 ---
-title: "Lecture “We can do anything”"
+title: "Lecture: “We can do anything”"
 ---

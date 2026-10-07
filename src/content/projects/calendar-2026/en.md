@@ -1,3 +1,3 @@
 ---
-title: "Calendar for 2026"
+title: "2026 calendar"
 ---

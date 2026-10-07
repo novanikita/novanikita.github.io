@@ -1,11 +1,11 @@
 ---
-title: "Rebranding of the Kirovets stadium"
+title: "Kirovets stadium rebranding"
 ---
 
-Task: to design the identity of the stadium in St. Petersburg.
+Brief: design the identity of a stadium in Saint Petersburg.
 
-The main idea of ​​the style was the dynamism of sports. To support this style idea, the beveled shape became a recurring element. The font, logo, decorative elements and icon system are built on it.
+The core idea of the style is the dynamism of sport. To support it, a slanted shape repeats throughout: the typeface, the logo, the decorative elements and the icon system are all built on it.
 
 Made in 3 months in 2020
 
-Curator: Alexandra Osipova
+Supervisor: Alexandra Osipova

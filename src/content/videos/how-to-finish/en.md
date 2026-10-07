@@ -1,3 +1,3 @@
 ---
-title: "How to finish what you started?"
+title: "How to finish what you start?"
 ---

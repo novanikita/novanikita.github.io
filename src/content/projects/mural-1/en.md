@@ -1,13 +1,13 @@
 ---
-title: "Mural No. 1"
+title: "Mural #1"
 ---
 
-Task: Have fun and paint a 3 by 4 meter wall in the yard.
+Brief: have fun and paint a 3 × 4 meter wall in a courtyard.
 
-I wanted to return the feeling of nature next to man, which was lost in the course of human development. Although where you are standing now, even a couple of thousand years ago there were monumental trees and endless fields. Inhabited by thousands of life forms.
+I wanted to bring back the feeling of nature next to people, which got lost as humanity developed. Even though right where you are standing, just a couple of thousand years ago there were monumental trees and endless fields, home to thousands of life forms.
 
-I would like to work more with urban design. But after several trials, I decided to continue doing it legally.
+I’d like to work more on urban design, but after a few attempts I decided to keep doing it only legally.
 
-<a href="//poly.cam/capture/5F54BEB8-6808-46AE-A46A-F47FEA381540?">3D scan of an object</a>
+<a href="//poly.cam/capture/5F54BEB8-6808-46AE-A46A-F47FEA381540?">3D scan of the mural</a>
 
 Made in 3 days in 2021

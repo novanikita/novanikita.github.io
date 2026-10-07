@@ -5,122 +5,122 @@ meta:
   - "December 3, 2024"
 ---
 
-Tips for all aspiring designers that will save your money from consultations, courses and masterminds.
+Advice for all beginner designers that will save your money on consultations, courses and masterminds.
 
-## 1 - Everything you do now is basic skills
+## 1 — Everything you are doing now is core skills
 
-You can't go anywhere without them. Now you may notice that a certain part of the job (for example, searching for options) or even an entire area (for example, research) is better than others. This is fine. In the beginning it’s like that for everyone. This happens because before design you were still doing something: drawing at school, arguing with everyone, or reading books. And you have more training in this.
+You can’t do without them. Right now you may notice that a certain part of the work (say, exploring options) or even a whole area (say, research) works out better for you than the rest. That’s normal. Everyone is like that at the start. It happens because before design you were doing something anyway: drawing at school, arguing with everyone or reading books. So you have more preparation in that.
 
-Every second designer in consultation with me makes the following conclusion:<br> *— Since I can’t do this, I’ll improve other skills that I can achieve. You say to strengthen the strong, behold!*
+Every other designer at my consultations comes to this conclusion:<br> *— Since I’m not good at this, I’ll build the skills I am good at. You did say to strengthen your strengths!*
 
-Don't do this. It's too early for you to make this decision. If now you find it difficult to make something beautiful, talk to a customer, or sell services, it’s because you’re at the beginning. Previous life experience is not enough. And yes, you definitely need to learn this to a strong intermediate level. And then, when everything is strong and average, you can go strengthen the strong and become a unique specialist. But without an average base in all design areas there is nothing further to do.
-
-<div class="ids__space M"></div>
-
-## 2 — Team projects can also be published
-
-There is nothing shameful or wrong about not doing everything yourself. The power is in the team. Always. Most great things have been done by teams.
-
-Of course, if we are talking about something more than cards on VB. Although, I think even good profitable cards are made by teams of 2-3 people.
-
-Yes, publishing team work is more difficult. You need to be able to speak diplomatically so as not to piss off people within the team. And everyone considered themselves quite important and appreciated.
-
-Self-presentation skills are required. So that any recruiter has no doubt about your contribution to the common cause. A well-made and well-written group project gives 10 times more points in the coolness box.
+Don’t. It’s too early for you to make that decision. If making beautiful things, talking to clients or selling your services is hard for you now, it’s because you’re at the beginning. The experience from your previous life isn’t enough. And yes, you absolutely need to learn these things to a solid intermediate level. Later, when everything is solidly intermediate, you can go strengthen your strengths and become a unique specialist. But without an intermediate base in every area of design, there’s nowhere to go further.
 
 <div class="ids__space M"></div>
 
-## 3 - Limit your projects by time
+## 2 — You can publish team projects too
 
-Especially if you only do academic work. Or you are making a design purely for yourself. Or getting ready for your first job. In general, you exist without external deadlines and agreements with other people.
+There’s nothing shameful or wrong about not having done everything yourself. Strength is in the team. Always. Most great things were done by teams.
 
-Create internal restrictions. Artificial.
+Provided we’re talking about something bigger than product cards on Wildberries, of course. Although I think even good, profitable product cards are made by teams of 2–3 people.
 
-Swinging in design is the same as rocking. It’s not just one 10-hour workout that makes the difference. And the frequency of hour-long training with different exercises for different muscle groups.
+Yes, publishing team work is harder. You need to talk diplomatically so you don’t infuriate people on the team, and so everyone feels important and appreciated enough.
 
-You will still win from the first cases and hide them in a couple of years. Or they will be blocked by new fucking works. So, the ban on finishing your work endlessly will help bring this moment closer. Just imagine how many new and interesting projects you miss while you delve into one thing.
-
-<div class="ids__space M"></div>
-
-## 4 - Publish imperfect things. How?
-
-The most destructive thing about designers is to improve each of their work to perfection. And only then, after months of torment and suffering... no, not publish it. Be disappointed and put it away on the table.
-
-Everything published should be 85-90% good.
-
-But where can you find the courage and courage to publish something imperfect? For example, in the book “The Courage to Create.” By what criteria do we understand what is possible? Is it time?
-
-The only criterion for publishing anything is “it does not contradict my principles.”
-
-There are no more criteria. And it can’t be. Today you like your job, tomorrow you won’t. Today you love yourself - tomorrow you won’t. Today one expert praised you, tomorrow another one craps on you. Everything changes - fashion, mood, tastes, expertise.
-
-So the point is to cling to the fundamental.
-
-Your principles and views on life change less often than your mood and “opinion leaders.” Therefore, what is published can be any degree of awesomeness, professionalism and coolness - as long as it does not contradict the principles.
+You need self-presentation skills, so that no recruiter has any doubt about your contribution to the common cause. A well-made and well-described group project scores ten times more points toward your coolness.
 
 <div class="ids__space M"></div>
 
-## 5 - A healthy and relevant self-assessment is always based on both external and internal assessment
+## 3 — Put time limits on your projects
 
-You won’t be able to choose just one thing.
+Especially if you only do study projects. Or design purely for yourself. Or are preparing for your first job. In short, if you exist without external deadlines and agreements with other people.
 
-If you choose only an external assessment, then you will always work for less money than you are actually worth. Simply because in business it is customary to save money and optimize expenses.
+Create internal limits. Artificially.
 
-If you choose only an internal assessment, then you become that misunderstood genius from the cash register in the five. With an unstable reliance on the world and a separation from reality in fantasies about one’s omnipotence and fearlessness.
+Getting stronger in design is the same as at the gym. What counts isn’t one 10-hour workout, but regular one-hour workouts with different exercises for different muscle groups.
 
-The combination also gives the desire to work and compete. And the courage to ask for more money, to stand up for one’s own, to say no.
-
-About those same geniuses...
+You’ll cringe at your first case studies anyway and hide them in a couple of years. Or they’ll be buried by new kick-ass work. Forbidding yourself to polish your work forever will bring that moment closer. Just imagine how many new and interesting projects you miss while you dig into a single one.
 
 <div class="ids__space M"></div>
 
-## 6 – Genius costs nothing
+## 4 — Publish imperfect work. How?
 
-Imagine that you are sitting at an interview between two candidates. The first one, Andrew Netakovich-Kakvseshkin, is a genius, but he looks like a homeless person. It also stinks. The second one, Sasha Khoroshov, is, on the contrary, a pleasant specialist, but he’s just smart. He has experience and knows how to solve problems. He's definitely smarter than average. But not a genius.
+The most harmful habit designers have is jerking off every piece of work to perfection. And then, after months of agony… no, not publishing it. Getting disappointed and putting it in a drawer.
 
-The stump is clear - you need a second candidate.
+Everything you publish should be 85–90% good.
 
-And not only because all people choose based on their appearance. But also because he is more adequate in his perception of the world. Sasha knows social norms. It is advisable to brush your teeth. Don't cause problems. He knows the basic principles of the psychology of influencing people. Able to create a pleasant feeling.
+But where do you find the courage and boldness to publish imperfect work? For example, in the book “The Courage to Create”. By what criteria do you know it’s OK? That it’s time?
 
-Such a person gives signs that you can work with him. He will not break the system for the sake of his righteousness and freedom. The potential of his mind will work for the result and the team. And not to confirm its uniqueness.
+The only criterion for publishing anything is “it doesn’t contradict my principles”.
 
-Genius is worthless if nothing can be done with it.
+There are no other criteria. And there can’t be. Today you like the work, tomorrow you don’t. Today you love yourself, tomorrow you don’t. Today one expert praised you, tomorrow another trashed you. Everything changes: fashion, mood, tastes, expertise.
 
-This is because, a priori, all people have their own tactics. And they stick to it. At a basic level, they don’t care about business or team goals. Imagine how difficult it is to pull a person out of the world of his own needs and motivate him to work not only in his own interests.
+So the point is to hold on to what’s fundamental.
 
-In order not to become like Andrew Netakovich-Kakvseshkin, you need to be a pleasant person and offer understandable benefits in your future together. Then the person switched from his world to yours.
-
-In an exceptionally toxic work environment, this certainly doesn't work. There are orders, kanbans, deadlines - well, you need to eat dosed minced meat for a salary for a grocery basket.
-
-It is cheaper for both teams and companies to work with Sasha Khoroshov.
-
-He understands how important it is to give a compliment and say hello at the beginning of the day. Listen to a story about a cat from the village. Set expectations, don't break them. Know how to conduct calls. Don’t show ass explosions. And work with other emotions.
-
-It's nice to work with people who understand that they are the ones living in society. And it wasn’t that society appeared around them by chance.
-
-A vacancy for a cashier in the top five awaits all misunderstood geniuses.
+Your principles and views on life change less often than your mood and “opinion leaders”. So what you publish can be at any level of awesomeness, professionalism and coolness — as long as it doesn’t contradict your principles.
 
 <div class="ids__space M"></div>
 
-## 7 — The channels you want to read are based on 2 principles. The topic is what they think. Words - how they feel
+## 5 — A healthy and relevant self-assessment is always built on both external and internal evaluation
 
-This is called authenticity.
+You can’t pick just one.
 
-Content is everywhere. There are more themes around you than there are atoms. If you learn to simply reflect on life based on the fact of existence, then you can learn to see these themes. Imagine your face if you started to see every atom.
+If you choose only external evaluation, you’ll always work for less money than you’re actually worth. Simply because in business it’s customary to save money and optimize costs.
 
-Generating an idea is more difficult. Connecting it to the topic is even more difficult. This is how life is.
+If you choose only internal evaluation, you become that misunderstood genius working the checkout at a supermarket. With an unstable grip on the world, detached from reality, lost in fantasies of your own omnipotence and fearlessness.
 
-People also pick up on the dialect of your channel. I could remove all the pussies and tits from the text. But I really talk like that. Okay, when asked, I can speak normally. But it’s more interesting to squeeze out a metaphor or a funny word. So read the calls of new lips on the scales of a tin fish.
+The combination gives you both the drive to work and compete, and the courage to ask for more money, stand your ground and say no.
+
+About those geniuses…
 
 <div class="ids__space M"></div>
 
-## 8 - If it’s hard to write a text in 10-30 minutes, there’s a lot of stress.
+## 6 — Genius is worth nothing
 
-Maybe these are high demands on yourself and any of your work. Maybe you consider this text to be overly important in general.
+Imagine you’re interviewing two candidates. The first is Andrew Notlikeothers — a genius, but he looks like a homeless person. And he smells. The second is Sasha Goodman — a pleasant specialist, but he’s just smart. He has experience and knows how to solve problems. He’s definitely smarter than average. But not a genius.
 
-In fact, 1 good text is 1 flash of importance. Also, not every text will turn out good. And a high-quality, high-calorie blog is worth 50-100 flashes in your reader’s memory.
+Obviously, you need the second candidate.
 
-It turns out that you need to give out a little every day for several months to increase the value and calorie content.
+And not only because everyone judges by appearance. But also because he sees the world more adequately. Sasha knows social norms: that it’s a good idea to brush your teeth, not to cause problems. He knows the basic principles of the psychology of influence and can create a pleasant impression.
+
+A person like that signals that you can work with him. He won’t break the system for the sake of being right and free. The potential of his mind will work for the result and the team, not for proving how unique he is.
+
+Genius is worth nothing if nothing can be done with it.
+
+All because, a priori, everyone has their own strategy and sticks to it. At a basic level, they don’t care about the goals of the business or the team. Imagine how hard it is to pull a person out of the world of their own needs and motivate them to work not only in their own interests.
+
+To avoid becoming Andrew Notlikeothers, you need to be a pleasant person and offer a clear benefit in a shared future. Then the other person switches from their world to yours.
+
+In a truly toxic work environment this doesn’t work, of course. There are orders, kanbans, deadlines — and you just have to swallow your portion of mince for a salary that covers the groceries.
+
+For teams and companies alike, working with Sasha Goodman is cheaper.
+
+He understands how important it is to give a compliment and say hello at the start of the day. To listen to the story about the cat from the village. To set expectations and not break them. To know how to run calls. Not to show his meltdowns. And to deal with the rest of his emotions too.
+
+It’s nice to work with people who understand that they live in society — not that society happened to appear around them.
+
+All the misunderstood geniuses have a cashier job waiting for them at the supermarket.
+
+<div class="ids__space M"></div>
+
+## 7 — Channels people want to read are built on 2 principles. The topic is what you think. The words are how you feel
+
+That’s what people call authenticity.
+
+Content is everywhere. There are more topics around you than atoms. If you learn to reflect on life simply as it happens, you can learn to see those topics. Imagine your face if you started seeing every atom.
+
+Coming up with an idea is harder. Connecting it to a topic is harder still. That’s life.
+
+People also get hooked on the dialect of your channel. I could remove all the dicks and tits from my texts. But that really is how I talk. OK, when asked, I can talk properly. But squeezing out a metaphor or a funny word is more interesting. So read the calls of new lips on the scales of a tin fish, as Mayakovsky put it.
+
+<div class="ids__space M"></div>
+
+## 8 — If it’s hard to write a text in 10–30 minutes, there’s too much tension
+
+Maybe it’s high standards for yourself and for anything you do. Maybe you consider this text an overly important thing in general.
+
+In fact, 1 good text is 1 flash of importance. And not every text turns out good. A quality, nourishing blog is worth 50–100 flashes in your reader’s memory.
+
+So you need to put out a little every day for several months to build up its value and substance.
 
 <div class="ids__space XL"></div>
 
-Here is a series of tips that came out. In October and November, I conducted 21 consultations for aspiring designers and students. What I most often retold from time to time became the basis for this note.
+That’s the series of tips that came out of it. In October and November I gave 21 consultations to beginner designers and students. What I retold most often, time after time, became the basis of this note.

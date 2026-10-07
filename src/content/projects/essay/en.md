@@ -1,15 +1,15 @@
 ---
-title: "Book series “Epoch Defining Essays”"
+title: "“Essays That Defined an Era”, a book series"
 ---
 
-Task: to come up with and layout a book that will become the beginning of a series of budget pocket books.
+Brief: come up with and lay out a book that starts a series of affordable pocket books.
 
-This series of books combines letters, essays and articles. They were written by great people from the fields of culture, art and design in the 20th century. Each book is dedicated to one person and one idea that he promoted through his activities.
+The series brings together letters, essays and articles by great 20th-century figures in culture, art and design. Each book is about one person and one idea they pursued through their work.
 
-The first book is about Kazemir Malevich and his idea of ​​the zero form - the black square. For the book, articles were taken from the newspaper “Anarchy”. At the same time, my goal as an editor was not to make a collection of all articles arranged chronologically. And the selection of specific texts that will reveal the process of idea formation from beginning to end.
+The first book is about Kazimir Malevich and his idea of the zero of form, the Black Square. It uses his articles from the newspaper *Anarchy*. As the editor, my goal was not to collect every article in chronological order but to pick the texts that show, from start to finish, how the idea took shape.
 
-The second book is dedicated to Walter Gropius and the Bauhaus. The third book is to Wassily Kandinsky and abstract art.
+The second book is about Walter Gropius and the Bauhaus, the third about Wassily Kandinsky and abstract art.
 
 Made in 3 months in 2021
 
-Curator: Evgeny Grigoriev
+Supervisor: Evgeny Grigoriev

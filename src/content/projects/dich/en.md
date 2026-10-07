@@ -1,9 +1,9 @@
 ---
-title: "Game gallery logo"
+title: "Logo for the Dich gallery"
 ---
 
-Task: to design a logo for a contemporary art gallery in the center of St. Petersburg
+Brief: design a logo for a contemporary art gallery in the center of Saint Petersburg
 
-Only beginning artists exhibit there. For many, the Game gallery is an opportunity to hold their first exhibition. It’s clear from the name that the curators treat themselves with a healthy dose of humor, so in the logo I supported their punk and cynical vibe.
+Only emerging artists show there; for many of them Dich is the chance to have their first exhibition. The name says it all (“dich” is Russian slang for something wild and absurd): the curators don’t take themselves too seriously, so the logo keeps up their punk, cynical vibe.
 
 Made in 1 week in 2022

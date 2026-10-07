@@ -3,12 +3,12 @@ title: "Packaging concept for Commo"
 cardTitle: "Packaging for Commo"
 ---
 
-Done as part of a test task
+Made as a test assignment
 
-Task: create a concept for any product that could be in Commo
+Brief: create a concept for any product Commo could make
 
-I designed packaging for watches. Because they are not yet in the product line of this brand, but competitors have them. Having turned the different positions of the watch in my head, I found a coincidence - on the side the straps fold into a heart. Nice, but how good is this idea for the brand? Both in the brand book and in people’s reviews on marketplaces, the following words were often heard: companion, companion, inconspicuous, impeccable, reliable partner, impressive. A heart can become a simple symbol that conveys complex feelings.
+I designed packaging for a watch: the brand doesn’t make watches yet, but its competitors do. Turning the watch around in my head, I noticed a coincidence: seen from the side, the straps form a heart. Cute, but does the idea fit the brand? The brand book and customer reviews on marketplaces kept using the same words: companion, partner, unobtrusive, flawless, reliable, impressive. A heart can be a simple symbol for complex feelings.
 
-Additionally, I proposed an idea for a limited collection of keyboards made from recycled plastic.
+I also proposed a limited collection of keyboards made from recycled plastic.
 
 Made in 3 days in 2025

@@ -1,4 +1,4 @@
 ---
-title: "News No. 11"
-cardTitle: "NOTnews #11"
+title: "Novasti #11"
+cardTitle: "Not-novasti #11"
 ---

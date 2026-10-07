@@ -1,3 +1,3 @@
 ---
-title: "Lecture “Take a Step Back!”"
+title: "Lecture: “Take a step back!”"
 ---

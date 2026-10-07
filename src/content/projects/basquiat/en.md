@@ -1,16 +1,15 @@
 ---
-title: "Furniture series “Alien”"
-cardTitle: "Furniture line “Alien”"
+title: "“Stranger”, a furniture series"
 ---
 
-Task: Design a series of furniture
+Brief: design a furniture series.
 
-The idea of ​​the project is to make every person surrounded by this furniture feel embarrassed and uncomfortable. Feel like a stranger. Just like Basquiat, all his life he felt like a stranger among society, since he was the only black person among bohemians.
+The idea is to make everyone around this furniture feel awkward and uncomfortable — to feel like a stranger, the way Basquiat felt all his life as the only Black artist among the bohemians.
 
-The series is dedicated to Jean-Michel Basquiat. Some of the artist’s works are visualized in the items. The hanger is a picture of the Three Kings. Stool - “Ride Death.” Chest of drawers - “Untitled”.
+The series is dedicated to Jean-Michel Basquiat, and the pieces visualize some of his works: the coat rack is “Three Kings”, the stool is “Riding with Death”, the chest of drawers is “Untitled”.
 
-The materials used are leather and metal. They mean skin and flesh. Elements that are often found in the artist’s works, with his love for anatomy.
+The materials are leather and metal, standing for skin and flesh — elements that often appear in the artist’s work, with his love of anatomy.
 
 Made in 2 weeks in 2022
 
-Curator: Boremir Bakhaev
+Supervisor: Boremir Bakhaev

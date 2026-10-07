@@ -1,12 +1,12 @@
 ---
-title: "Generative wallpapers and panels for Dodo pizzerias"
+title: "Generative wallpaper and panels for Dodo pizzerias"
 cardTitle: "Generative wallpaper for Dodo Pizza"
 ---
 
-Task: to open pizzerias in cities with small populations. You can touch the generator on the website [Small Cities Generator](https://dodo-gen-interiors.dev.intuition.team/)
+Brief: design pizzerias in small towns. You can play with the generator on the [Small Cities Generator](https://dodo-gen-interiors.dev.intuition.team/) website
 
-For each city, a set of wallpapers and panels is generated. Each interior becomes unique. And without additional work from specialists. Construction time and costs are reduced.
+For every town, the generator makes a set of wallpaper and panels, so each interior is unique — without extra work from specialists. It cuts construction time and cost.
 
 Made in 5 months in 2024
 
-Made with [Intuition](https://intuition.team/ru/i): Vanya Dianov, Zhenya Arutyunov and me
+Made with [Intuition](https://intuition.team/ru/i): Vanya Dianov, Zhenya Arutyunov and me

@@ -1,12 +1,12 @@
 ---
-title: "Trucks for delivering food to pizzerias"
-cardTitle: "Dodo truck decoration"
+title: "Trucks that deliver food to Dodo pizzerias"
+cardTitle: "Dodo truck wraps"
 ---
 
-Task: Design the frame of the trucks of the East West company, which deliver products to the Dodo pizzeria.
+Brief: design the wraps for the trucks of Vostok Zapad, the company that delivers food to Dodo pizzerias.
 
-The challenge of this project was the tight deadline. During this time we discussed many options. We tested both safe and experimental ideas. And the final version was prepared for wrapping 13 truck models.
+The hard part was the tight deadline. In that time we discussed many options and tested both safe and experimental ideas. The final design was prepared for wrapping 13 truck models.
 
 Made in 2 weeks in 2025
 
-Made with [Intuition](https://intuition.team/ru/i): Ruslan Severinov, Denis Khapinin, Zhenya Arutyunov and me.
+Made with [Intuition](https://intuition.team/ru/i): Ruslan Severinov, Denis Khapinin, Zhenya Arutyunov and me

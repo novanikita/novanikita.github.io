@@ -1,12 +1,12 @@
 ---
-title: "Meeting No. 2"
-cardTitle: "No. 2 Moscow 06/22/2025"
+title: "Meetup #2"
+cardTitle: "#2 Moscow, June 22, 2025"
 ---
 
-For the second meeting we gathered in a larger group. This time they vacuumed the streets around the Smolenskaya metro station. After that, we also sat down in a coffee shop, where we had already been working for 4 hours and offering new options. During this time, we managed to discuss: June’s career path, how to start in 2025, how not to be afraid of neurons, the fastest way to gain skills.
+The second meetup was already bigger. This time we combed the streets around Smolenskaya metro station. Then, as before, we sat down in a coffee shop and spent 4 hours making and pitching new versions. Along the way we talked about a junior designer’s career path, how to get started in 2025, how not to be afraid of neural networks, and the fastest way to build skills.
 
-Here the answer is only to the last, and let everything else remain at the meeting. The fastest way to gain skills is to go outside, open the refrigerator, go online and redesign the first thing that catches your eye. That is, come to Design Sunday.
+I’ll only share the answer to the last one here — the rest stays at the meetup. The fastest way to build skills is to go outside, open the fridge or go online and redesign the first thing you see. In other words, come to Design Sunday.
 
 Time: 3 hours
 
-Company: 3 people
+People: 3

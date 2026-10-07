@@ -1,11 +1,11 @@
 ---
-title: "Video about slavery “06.06”"
+title: "“06.06”, a video about slavery"
 ---
 
-Task: Make a video for any holiday that takes place on June 6th.
+Brief: make a video for any holiday that falls on June 6.
 
-The video is dedicated to the abolition of slavery and racial segregation. For its creation, footage from the film “The Butler” was used. They show sit-ins that students staged across the country. The Bill of Human Rights plays in the background. The law that J. Kennedy issued after the events occurred. The text is voiced by artificial intelligence. In recent years, it has become the main focus of debates about replacing manual labor. Some frames are complemented by primitive drawings: crowns, numbers, bones, outlines of faces and bodies, crosses. This is a reference to Jean-Michel Basquiat. He was one of the first black nationally recognized artists in history.
+The video is about the abolition of slavery and racial segregation. It is built from footage of *The Butler* showing the sit-ins that students staged across the country. Behind it you hear the civil rights bill that John F. Kennedy put forward after those events, read by an AI voice — AI has become the main subject of the debate about machines replacing human work. Some frames are overlaid with primitive drawings: crowns, numbers, bones, outlines of faces and bodies, crosses. It is a reference to Jean-Michel Basquiat, one of the first widely recognized Black artists in history.
 
-For this work, footage from the film was re-edited to shorten the running time of the scene. Then they are divided into sequences. Printed out. Outlined with gouache and chalk. Scanned. And collected back into a sequence. In total there were about 350 frames in the work.
+To make it, I re-edited the film footage to shorten the scene, split it into a frame sequence, printed the frames, drew over them with gouache and chalk, scanned them and put the sequence back together. About 350 frames in total.
 
 Made in 15 days in 2022

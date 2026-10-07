@@ -1,3 +1,3 @@
 ---
-title: "Why did you leave university before your 4th year?"
+title: "Why did I drop out of university before my fourth year?"
 ---

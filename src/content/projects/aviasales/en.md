@@ -1,13 +1,12 @@
 ---
-title: "Promotional campaign for Aviasales"
-cardTitle: "Advertising campaign for Aviasales"
+title: "Promo campaign for Aviasales"
 ---
 
-Collaboration with SenseSay agency
+In collaboration with the SenseSay agency
 
-Objective: to show how advertising can change with the help of generative identity. This is a live-data-branding approach, which was invented by the SenseSay agency.
+Brief: show how advertising can change with generative identity. This is live-data branding, an approach invented at SenseSay.
 
-The idea is to make advertising even more personal. Teach her to react to the context. Online offers are generated based on the user's latest requests. Offline - depending on the locations around you.
+The idea is to make advertising even more personal by teaching it to react to context. Online, the offer is generated from the user’s latest searches; offline, from the places around.
 
 Made in 1 month in 2024
 

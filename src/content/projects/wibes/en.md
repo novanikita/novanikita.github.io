@@ -1,5 +1,5 @@
 ---
-title: "Promo campaign for Wibes"
+title: "Promo campaign for Wibes"
 ---
 
-Made in 2026
+Made in 2026

@@ -1,17 +1,17 @@
 ---
-title: "Drop “First letter of the alphabet” No. 3"
+title: "“First Letter of the Alphabet” drop #3"
 ---
 
-The First Letter of the Alphabet is a reminder that you are the first who needs to be happy, you are the first whose opinion needs to be listened to, your goals are the first in line for implementation.
+“First Letter of the Alphabet” is a reminder that you are the first one to make happy, the first one whose opinion matters, and your goals are first in line.
 
-This time I made a T-shirt and hoodie as a symbol of support and self-protection. Branded A became a stone and knight's armor.
+This time I made a T-shirt and a hoodie as a symbol of support and self-protection. The signature A turned into a stone and a knight’s armor.
 
-Why so? My little brother is now gradually entering adulthood (he’s already crazy). The Unified State Exam is coming soon, moving, admission, work, finding yourself, girls, well, that’s all.
+Why? My little brother is slowly entering adult life (wow, he’s all grown up already). Final exams are coming, then moving out, university, work, finding himself, girls — all of that.
 
-I wanted to not just write a wish, but to make a whole bunch of ammunition to overcome everything that awaits him.
+I wanted not just to write him a wish but to make a whole suit of armor for getting through everything ahead of him.
 
-The quality, as always, is damn good, so the thing will definitely last a couple of years. I hope to be around while he grows up.
+As always, the quality is insanely good, so it will last for years. I hope it stays with him while he grows up.
 
-Released in a single copy. You can't buy this.
+Made as a one-off. You can’t buy it.
 
 Made in 1 month in 2025

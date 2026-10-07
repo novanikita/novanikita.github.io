@@ -1,9 +1,9 @@
 ---
-title: "Series of illustrations “Ate Grandfather”"
+title: "“Ate Grandpa”, an illustration series"
 ---
 
-Task: choose any song and make a series of illustrations about it. I chose Morgenstern’s song “Ate Grandfather” (sorry, it was 2020). The point of this work is that war is as meaningless as the songs of this artist.
+Brief: pick any song and make a series of illustrations about it. I chose Morgenshtern’s “Syel deda” (“Ate Grandpa”) — sorry, it was 2020. The point of the work is that war is as meaningless as this artist’s songs.
 
 Made in 2 weeks in 2020
 
-Curator: Yuri Shtapakov
+Supervisor: Yuri Shtapakov

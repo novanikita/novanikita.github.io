@@ -1,7 +1,7 @@
 ---
-title: "Paddling pool"
+title: "Frog Pond"
 ---
 
-Task: relax between calls and draw black and white frogs. The best part about the project was that there was no preliminary sketch. Each frog looks the way the hand goes.
+Brief: rest between calls and draw black-and-white frogs. The best part is that there were no preliminary sketches: each frog looks the way my hand happened to go.
 
 Made in 1 week in 2024

@@ -1,10 +1,10 @@
 ---
-title: "Meeting No. 3"
-cardTitle: "No. 3 St. Petersburg 07/20/2025"
+title: "Meetup #3"
+cardTitle: "#3 Saint Petersburg, July 20, 2025"
 ---
 
-The third meeting was held in a guest format in another city. In St. Petersburg. We vacuumed the streets of Vasilyevsky Island. After that, we also sat down in a coffee shop, where for 4 hours they proposed 18 redesigns for the real world.
+The third meetup was a guest one, in another city — Saint Petersburg. We combed the streets of Vasilyevsky Island, then sat down in a coffee shop as usual and came up with 18 redesigns for the real world in 4 hours.
 
 Time: 5 hours
 
-Company: 4 people
+People: 4

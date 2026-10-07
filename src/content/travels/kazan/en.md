@@ -2,4 +2,4 @@
 title: "Kazan"
 ---
 
-Viewed in 4 days
+Explored in 4 days

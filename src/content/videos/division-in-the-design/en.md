@@ -1,3 +1,3 @@
 ---
-title: "Lecture “Why are there no spheres in design?”"
+title: "Lecture: “Why are there no fields in design?”"
 ---

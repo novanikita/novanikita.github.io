@@ -1,12 +1,11 @@
 ---
-title: "Rebranding of the film “Mid-90s”"
-cardTitle: "Rebranding of the film “Mid 90s”"
+title: "Rebranding of the film “Mid90s”"
 ---
 
-Task: to propose localization of a film for distribution in Russia.
+Brief: propose a localization of the film for release in Russia.
 
-The only actor in the film is the main character. The rest of the characters are played by real skaters from the street. In my work I became hooked on this sadness. Therefore, to create posters, I contacted real skaters from the streets of St. Petersburg. And I photographed them. They became the face of film distribution in Russia.
+The only actor in the film plays the lead; everyone else is a real street skater. I held on to that authenticity: for the posters, I got in touch with real skaters from the streets of Saint Petersburg and photographed them. They became the face of the film’s release in Russia.
 
-In the identity, I used 6 fonts to emphasize the chaos and serenity. Not just the movie characters. But also the entire generation who grew up in the mid-90s.
+The identity uses 6 typefaces to underline the chaos and carelessness — not only of the characters, but of the whole generation that grew up in the mid-90s.
 
 Made in 2 months in 2022

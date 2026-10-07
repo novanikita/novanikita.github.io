@@ -1,11 +1,11 @@
 ---
-title: "Lettering for Bureau Zarya"
+title: "Lettering for Zarya Bureau"
 ---
 
-Task: to create lettering for the creative production bureau “Zarya”.
+Brief: create lettering for Zarya (Russian for “dawn”), a creative production bureau.
 
-The team had a sign ready. The inscription was missing. As a reference, they showed me a font for which they had neither a license nor money. So they came to me for lettering. They asked me to make regular elongated letters. As tall as a sign. And as long as two characters.
+The team already had a mark but no wordmark. As a reference they showed me a typeface they had neither a license nor the budget for, so they came to me for lettering. They asked for plain condensed letters, as tall as the mark and as long as two marks.
 
-During the search, I suggested hiding the arc of the rising sun inside the sign. The Dawn Bureau team liked this idea. They left it like that.
+While exploring, I suggested hiding the arc of a rising sun inside the mark. The Zarya team liked the idea, and it stayed.
 
 Made in 2 days in 2025

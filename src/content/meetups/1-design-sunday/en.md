@@ -1,12 +1,12 @@
 ---
-title: "Meeting No. 1"
-cardTitle: "No. 1 Moscow 06/15/2025"
+title: "Meetup #1"
+cardTitle: "#1 Moscow, June 15, 2025"
 ---
 
-Pilot meeting of this project. We walked around the center of Moscow and photographed crooked things that simply needed to be updated. After that, we sat down in a coffee shop and made 9 new designs of what we found.
+The pilot meetup of the project. We walked around central Moscow and took photos of clumsy things that simply had to be updated. Then we sat down in a coffee shop and made 9 new designs for what we had found.
 
-Place: Moksva, metro station Mayakovskaya
+Place: Moscow, Mayakovskaya metro station
 
 Time: 3 hours
 
-Company: 3 people
+People: 3

@@ -1,13 +1,13 @@
 ---
-title: "Book \"60\""
+title: "“60”, a book"
 ---
 
-History: In 2021, I got sick with Covid on a trip, so I was locked in a booth for sinners for 5 hours. I only had a phone without internet. A couple of hours later I found the second living creature in the booth - a bug. And I recorded all her actions second by second. Cheser 2 years ago I decided to make a book about this.
+Story: in 2021 I caught COVID while traveling, so I was locked in an isolation booth “for sinners” for 5 hours with nothing but a phone and no internet. A couple of hours in, I found the only other living creature in the booth — a bug — and wrote down everything it did, second by second. Two years later I decided to make a book about it.
 
-Each page is a second of time in that booth. The book describes everything that the bug did. Most of the pages are blank, only action pages have been added to the site so you can read the story.
+Every page is one second in that booth, and the book describes everything the bug did. Most pages are blank; only the pages where something happens are on the site, so you can read the story.
 
-The book is designed in a dry and functional manner. So that the reader can feel how bored I was throughout the entire 5 hours. Therefore, all information is presented schematically. Square room - book format. Rectangles - arrangement of beds. The viewer looks from above. Circle of dots - ticking clock
+The book is designed in a dry, functional way, so the reader feels how bored I was for all 5 hours. Everything is shown as a diagram: the square room is the book format, the rectangles are the beds seen from above, the circle of dots is the ticking clock.
 
 Made in 2 months in 2022
 
-Curator: Ilya Bannikov
+Supervisor: Ilya Bannikov

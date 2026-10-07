@@ -1,11 +1,11 @@
 ---
-title: "Sap Union logo"
+title: "Sap Soyuz logo"
 ---
 
-Task: to design a logo for SUP board rentals in St. Petersburg.
+Brief: design a logo for a SUP board rental in Saint Petersburg.
 
-There is high competition among SUP board rentals in St. Petersburg. Basically they try to be "for everyone" with basic design. To attract both students and parents.
+SUP rentals in Saint Petersburg compete hard, and most of them try to be “for everyone” with a basic design, to attract both students and parents.
 
-At Sap-Union, we decided to segment ourselves into a specific audience—students who are looking for adventure, “living life,” and the list goes on.
+At Sap Soyuz we decided to target a specific audience: students looking for adventure, “living life” and so on.
 
 Made in 1 week in 2021

@@ -1,11 +1,11 @@
 ---
-title: "Application for observing emotions “Aura”"
+title: "“Aura”, an emotion tracking app"
 ---
 
-Task: to design a state tracker for productive work with a psychologist.
+Brief: design a mood tracker that makes work with a psychologist more productive.
 
-The app helps you record your condition frequently and consistently. This way, a psychologist or doctor can track the dynamics and reasons for changes in the client’s condition. Each note is assigned a color and a set of tags for statistics.
+The app helps you record how you feel often and in detail, so a psychologist or doctor can follow how a client’s state changes and why. Every entry gets a color and a set of tags for statistics.
 
-The application consists of 3 screens. The main screen has a large button for creating a note and a gradient consisting of the colors of the latest notes. Swipe right - note diary. Swipe left - statistics.
+The app has 3 screens. The main screen is a big button for a new entry and a gradient made of the colors of the latest entries. Swipe right for the diary, swipe left for statistics.
 
 Made in 2 months in 2020

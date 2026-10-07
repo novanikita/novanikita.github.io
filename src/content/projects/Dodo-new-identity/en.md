@@ -1,9 +1,9 @@
 ---
-title: "Rebranding of Dodo Pizza"
+title: "Dodo Pizza rebranding"
 ---
 
-Task: Propose a new brand vision
+Brief: propose a new vision for the brand
 
 Made in 1 month in 2023
 
-Made with [Intuition](https://intuition.team/ru/i): Zhenya Arutyunov, Tanya Cherkiz, Kristina Pletneva, Anton A., Dmitry Sivukhin, Vazgen Gilovyan and me
+Made with [Intuition](https://intuition.team/ru/i): Zhenya Arutyunov, Tanya Cherkiz, Kristina Pletneva, Anton A., Dmitry Sivukhin, Vazgen Gilovyan and me

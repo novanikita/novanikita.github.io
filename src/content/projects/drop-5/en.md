@@ -1,9 +1,9 @@
 ---
-title: "Drop “First letter of the alphabet” No. 5"
+title: "“First Letter of the Alphabet” drop #5"
 ---
 
-The first letter of the alphabet is a collection of things for like-minded people. A reminder that you are the first in your life, the rest comes later. There was already a drop with frogs, this time I repeated this story. Only this time I added meaning to the characters.
+“First Letter of the Alphabet” is a collection for like-minded people. A reminder that you come first in your life, and the rest comes later. There has already been a drop with frogs, and this time I came back to that story, but gave the characters a meaning.
 
-I generated the illustrations using a neural network. They added typography reminiscent of textbooks or educational posters. Sometimes it's time to get to know yourself again.
+I generated the illustrations with a neural network and added typography that recalls textbooks and school posters. Sometimes it’s time to get to know yourself again.
 
 Made in 1 day in 2025
