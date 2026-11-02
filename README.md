@@ -1,4 +1,4 @@
-# nikitanova.com
+# novanikita.github.io
 
 Сайт на [Astro](https://astro.build). Публикуется на GitHub Pages сам: после `git push` в `main` GitHub собирает сайт и выкладывает его (вкладка Actions в репозитории).
 

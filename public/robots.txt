@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nikitanova.com/sitemap.xml
+Sitemap: https://novanikita.github.io/sitemap.xml
